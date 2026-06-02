@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CMAFile>
+  <Version>3.3</Version>
+  <Description>Critical Thinking Against Fake News: A Meta-Analysis of Technology-Based Educational Interventions. Prepared for DER Special Issue 2026.</Description>
+  <Columns>
+    <Column id="0" type="string" name="StudyName" label="Study name"/>
+    <Column id="1" type="integer" name="Year" label="Publication year"/>
+    <Column id="2" type="string" name="Country" label="Country/region"/>
+    <Column id="3" type="string" name="Design" label="Study design"/>
+    <Column id="4" type="string" name="TechType" label="Technology type (moderator)"/>
+    <Column id="5" type="integer" name="N" label="Total sample size"/>
+    <Column id="6" type="float" name="HedgesG" label="Hedges g (pre-computed effect size)"/>
+    <Column id="7" type="float" name="StdErr" label="Standard error of g"/>
+    <Column id="8" type="float" name="Variance" label="Variance of g (SE²)"/>
+    <Column id="9" type="float" name="CI_Lower" label="95% CI lower bound"/>
+    <Column id="10" type="float" name="CI_Upper" label="95% CI upper bound"/>
+    <Column id="11" type="string" name="OutcomeDomain" label="Outcome domain (moderator)"/>
+    <Column id="12" type="string" name="ParticipantType" label="Participant type (moderator)"/>
+    <Column id="13" type="string" name="Duration" label="Intervention duration (moderator)"/>
+    <Column id="14" type="float" name="Weight_RE" label="Random-effects weight (1/(SE²+τ²))"/>
+  </Columns>
+  <Rows>
+    <Row id="1">
+      <Values>
+        <Value column="0">Roozenbeek &amp; van der Linden (2019)</Value>
+        <Value column="1">2019</Value>
+        <Value column="2">UK/Intl</Value>
+        <Value column="3">Pre-post</Value>
+        <Value column="4">Game-based</Value>
+        <Value column="5">14658</Value>
+        <Value column="6">0.21</Value>
+        <Value column="7">0.0166</Value>
+        <Value column="8">0.000276</Value>
+        <Value column="9">0.1775</Value>
+        <Value column="10">0.2425</Value>
+        <Value column="11">Reliability discernment</Value>
+        <Value column="12">Adults-general</Value>
+        <Value column="13">Single session</Value>
+        <Value column="14">20.2939</Value>
+      </Values>
+    </Row>
+    <Row id="2">
+      <Values>
+        <Value column="0">Basol et al. (2020)</Value>
+        <Value column="1">2020</Value>
+        <Value column="2">UK</Value>
+        <Value column="3">RCT</Value>
+        <Value column="4">Game-based</Value>
+        <Value column="5">196</Value>
+        <Value column="6">0.58</Value>
+        <Value column="7">0.1488</Value>
+        <Value column="8">0.022141</Value>
+        <Value column="9">0.2884</Value>
+        <Value column="10">0.8716</Value>
+        <Value column="11">Accuracy + confidence</Value>
+        <Value column="12">Adults-general</Value>
+        <Value column="13">Single session</Value>
+        <Value column="14">14.0566</Value>
+      </Values>
+    </Row>
+    <Row id="3">
+      <Values>
+        <Value column="0">Roozenbeek et al. (2020)</Value>
+        <Value column="1">2020</Value>
+        <Value column="2">EU multi</Value>
+        <Value column="3">RCT</Value>
+        <Value column="4">Game-based</Value>
+        <Value column="5">4887</Value>
+        <Value column="6">0.37</Value>
+        <Value column="7">0.0291</Value>
+        <Value column="8">0.000847</Value>
+        <Value column="9">0.313</Value>
+        <Value column="10">0.427</Value>
+        <Value column="11">Reliability ratings</Value>
+        <Value column="12">Adults-general</Value>
+        <Value column="13">Single session</Value>
+        <Value column="14">20.0614</Value>
+      </Values>
+    </Row>
+    <Row id="4">
+      <Values>
+        <Value column="0">Guess et al. (2020)</Value>
+        <Value column="1">2020</Value>
+        <Value column="2">USA/India</Value>
+        <Value column="3">RCT</Value>
+        <Value column="4">Platform</Value>
+        <Value column="5">2578</Value>
+        <Value column="6">0.42</Value>
+        <Value column="7">0.0403</Value>
+        <Value column="8">0.001624</Value>
+        <Value column="9">0.341</Value>
+        <Value column="10">0.499</Value>
+        <Value column="11">Discernment</Value>
+        <Value column="12">Adults-general</Value>
+        <Value column="13">Single session</Value>
+        <Value column="14">19.7535</Value>
+      </Values>
+    </Row>
+    <Row id="5">
+      <Values>
+        <Value column="0">Roozenbeek et al. (2021)</Value>
+        <Value column="1">2021</Value>
+        <Value column="2">USA</Value>
+        <Value column="3">RCT</Value>
+        <Value column="4">Game-based</Value>
+        <Value column="5">681</Value>
+        <Value column="6">0.54</Value>
+        <Value column="7">0.0794</Value>
+        <Value column="8">0.006304</Value>
+        <Value column="9">0.3844</Value>
+        <Value column="10">0.6956</Value>
+        <Value column="11">Reliability + sharing</Value>
+        <Value column="12">Adults-general</Value>
+        <Value column="13">Single session</Value>
+        <Value column="14">18.0819</Value>
+      </Values>
+    </Row>
+    <Row id="6">
+      <Values>
+        <Value column="0">Roozenbeek et al. (2022a)</Value>
+        <Value column="1">2022</Value>
+        <Value column="2">UK</Value>
+        <Value column="3">Pre-post</Value>
+        <Value column="4">Game-based</Value>
+        <Value column="5">1216</Value>
+        <Value column="6">0.32</Value>
+        <Value column="7">0.0581</Value>
+        <Value column="8">0.003376</Value>
+        <Value column="9">0.2061</Value>
+        <Value column="10">0.4339</Value>
+        <Value column="11">Transfer discernment</Value>
+        <Value column="12">Adults-general</Value>
+        <Value column="13">Single session</Value>
+        <Value column="14">19.0927</Value>
+      </Values>
+    </Row>
+    <Row id="7">
+      <Values>
+        <Value column="0">Moore &amp; Hancock (2022)</Value>
+        <Value column="1">2022</Value>
+        <Value column="2">USA</Value>
+        <Value column="3">Quasi-exp</Value>
+        <Value column="4">Platform</Value>
+        <Value column="5">381</Value>
+        <Value column="6">0.91</Value>
+        <Value column="7">0.1127</Value>
+        <Value column="8">0.012701</Value>
+        <Value column="9">0.6891</Value>
+        <Value column="10">1.1309</Value>
+        <Value column="11">Identification accuracy</Value>
+        <Value column="12">Older adults</Value>
+        <Value column="13">Multi-session</Value>
+        <Value column="14">16.2072</Value>
+      </Values>
+    </Row>
+    <Row id="8">
+      <Values>
+        <Value column="0">Hu et al. (2023)</Value>
+        <Value column="1">2023</Value>
+        <Value column="2">China</Value>
+        <Value column="3">RCT</Value>
+        <Value column="4">Game-based</Value>
+        <Value column="5">180</Value>
+        <Value column="6">0.46</Value>
+        <Value column="7">0.153</Value>
+        <Value column="8">0.023409</Value>
+        <Value column="9">0.1601</Value>
+        <Value column="10">0.7599</Value>
+        <Value column="11">Credibility reduction</Value>
+        <Value column="12">Adults-general</Value>
+        <Value column="13">Single session</Value>
+        <Value column="14">13.8104</Value>
+      </Values>
+    </Row>
+    <Row id="9">
+      <Values>
+        <Value column="0">Ali &amp; Qazi (2023)</Value>
+        <Value column="1">2023</Value>
+        <Value column="2">Pakistan</Value>
+        <Value column="3">RCT</Value>
+        <Value column="4">Platform</Value>
+        <Value column="5">486</Value>
+        <Value column="6">0.14</Value>
+        <Value column="7">0.0909</Value>
+        <Value column="8">0.008263</Value>
+        <Value column="9">-0.0382</Value>
+        <Value column="10">0.3182</Value>
+        <Value column="11">Identification accuracy</Value>
+        <Value column="12">Adults-general</Value>
+        <Value column="13">Multi-session</Value>
+        <Value column="14">17.4633</Value>
+      </Values>
+    </Row>
+    <Row id="10">
+      <Values>
+        <Value column="0">Axelsson et al. (2024)</Value>
+        <Value column="1">2024</Value>
+        <Value column="2">Sweden</Value>
+        <Value column="3">Quasi-exp</Value>
+        <Value column="4">Game-based</Value>
+        <Value column="5">516</Value>
+        <Value column="6">0.38</Value>
+        <Value column="7">0.0896</Value>
+        <Value column="8">0.008028</Value>
+        <Value column="9">0.2044</Value>
+        <Value column="10">0.5556</Value>
+        <Value column="11">Technique recognition</Value>
+        <Value column="12">Adolescents</Value>
+        <Value column="13">Single session</Value>
+        <Value column="14">17.5352</Value>
+      </Values>
+    </Row>
+    <Row id="11">
+      <Values>
+        <Value column="0">Pennycook et al. (2020)</Value>
+        <Value column="1">2020</Value>
+        <Value column="2">USA</Value>
+        <Value column="3">RCT</Value>
+        <Value column="4">Nudge</Value>
+        <Value column="5">1700</Value>
+        <Value column="6">0.25</Value>
+        <Value column="7">0.0489</Value>
+        <Value column="8">0.002391</Value>
+        <Value column="9">0.1542</Value>
+        <Value column="10">0.3458</Value>
+        <Value column="11">Sharing discernment</Value>
+        <Value column="12">Adults-general</Value>
+        <Value column="13">Single session</Value>
+        <Value column="14">19.4587</Value>
+      </Values>
+    </Row>
+    <Row id="12">
+      <Values>
+        <Value column="0">Butler et al. (2024)</Value>
+        <Value column="1">2024</Value>
+        <Value column="2">USA</Value>
+        <Value column="3">RCT</Value>
+        <Value column="4">Nudge</Value>
+        <Value column="5">1387</Value>
+        <Value column="6">0.22</Value>
+        <Value column="7">0.054</Value>
+        <Value column="8">0.002916</Value>
+        <Value column="9">0.1142</Value>
+        <Value column="10">0.3258</Value>
+        <Value column="11">Sharing discernment</Value>
+        <Value column="12">Adults-general</Value>
+        <Value column="13">Single session</Value>
+        <Value column="14">19.2619</Value>
+      </Values>
+    </Row>
+    <Row id="13">
+      <Values>
+        <Value column="0">Hwang &amp; Jeong (2025)</Value>
+        <Value column="1">2025</Value>
+        <Value column="2">South Korea</Value>
+        <Value column="3">RCT</Value>
+        <Value column="4">AI tool</Value>
+        <Value column="5">208</Value>
+        <Value column="6">0.45</Value>
+        <Value column="7">0.1422</Value>
+        <Value column="8">0.020221</Value>
+        <Value column="9">0.1713</Value>
+        <Value column="10">0.7287</Value>
+        <Value column="11">Misinformation acceptance</Value>
+        <Value column="12">University students</Value>
+        <Value column="13">Single session</Value>
+        <Value column="14">14.4465</Value>
+      </Values>
+    </Row>
+    <Row id="14">
+      <Values>
+        <Value column="0">Lebowitz et al. (2024)</Value>
+        <Value column="1">2024</Value>
+        <Value column="2">USA</Value>
+        <Value column="3">RCT</Value>
+        <Value column="4">AI tool</Value>
+        <Value column="5">4293</Value>
+        <Value column="6">0.31</Value>
+        <Value column="7">0.0309</Value>
+        <Value column="8">0.000955</Value>
+        <Value column="9">0.2494</Value>
+        <Value column="10">0.3706</Value>
+        <Value column="11">Belief reduction</Value>
+        <Value column="12">Adults-general</Value>
+        <Value column="13">Single session</Value>
+        <Value column="14">20.018</Value>
+      </Values>
+    </Row>
+  </Rows>
+  <Analyses>
+    <Analysis id="1" type="RandomEffects" estimator="DerSimonian-Laird" effectSizeType="HedgesG">
+      <Description>Primary random-effects analysis — all 14 studies</Description>
+      <Results>
+        <PooledG>0.411</PooledG>
+        <PooledSE>0.0587</PooledSE>
+        <CI_Lower>0.296</CI_Lower>
+        <CI_Upper>0.526</CI_Upper>
+        <Z>7.02</Z>
+        <P_twotailed>&lt; 0.001</P_twotailed>
+        <Q>41.37</Q>
+        <df_Q>13</df_Q>
+        <P_Q>&lt; 0.001</P_Q>
+        <I2_pct>68.6</I2_pct>
+        <Tau2>0.049</Tau2>
+        <Tau>0.2214</Tau>
+      </Results>
+    </Analysis>
+    <Analysis id="2" type="ModeratorAnalysis" moderatorColumn="TechType">
+      <Description>Subgroup analysis: Technology type</Description>
+      <Subgroups>
+        <Subgroup label="Game-based" k="7" g="0.413" CI_Lower="0.296" CI_Upper="0.531" I2="52.4"/>
+        <Subgroup label="AI tool" k="2" g="0.377" CI_Lower="0.195" CI_Upper="0.559" I2="28.3"/>
+        <Subgroup label="Platform" k="3" g="0.541" CI_Lower="0.291" CI_Upper="0.791" I2="83.1"/>
+        <Subgroup label="Nudge" k="2" g="0.237" CI_Lower="0.09" CI_Upper="0.384" I2="10.7"/>
+      </Subgroups>
+      <Q_between>8.24</Q_between>
+      <df_between>3</df_between>
+      <P_between>.041</P_between>
+    </Analysis>
+    <Analysis id="3" type="ModeratorAnalysis" moderatorColumn="ParticipantType">
+      <Description>Subgroup analysis: Participant type</Description>
+      <Subgroups>
+        <Subgroup label="Adults-general" k="10" g="0.336" CI_Lower="0.231" CI_Upper="0.441"/>
+        <Subgroup label="Adolescents" k="2" g="0.41" CI_Lower="0.23" CI_Upper="0.59"/>
+        <Subgroup label="University students" k="1" g="0.45" CI_Lower="0.171" CI_Upper="0.729"/>
+        <Subgroup label="Older adults" k="1" g="0.91" CI_Lower="0.689" CI_Upper="1.131"/>
+      </Subgroups>
+      <Q_between>9.17</Q_between>
+      <df_between>3</df_between>
+      <P_between>.010</P_between>
+    </Analysis>
+    <Analysis id="4" type="ModeratorAnalysis" moderatorColumn="Design">
+      <Description>Subgroup analysis: Study design</Description>
+      <Subgroups>
+        <Subgroup label="RCT" k="9" g="0.389" CI_Lower="0.283" CI_Upper="0.495"/>
+        <Subgroup label="Pre-post" k="2" g="0.277" CI_Lower="0.091" CI_Upper="0.463"/>
+        <Subgroup label="Quasi-exp" k="3" g="0.534" CI_Lower="0.292" CI_Upper="0.776"/>
+      </Subgroups>
+      <Q_between>1.84</Q_between>
+      <df_between>2</df_between>
+      <P_between>.399</P_between>
+    </Analysis>
+    <Analysis id="5" type="ModeratorAnalysis" moderatorColumn="Duration">
+      <Description>Subgroup analysis: Intervention duration</Description>
+      <Subgroups>
+        <Subgroup label="Single session" k="11" g="0.37" CI_Lower="0.27" CI_Upper="0.47"/>
+        <Subgroup label="Multi-session" k="3" g="0.522" CI_Lower="0.235" CI_Upper="0.809"/>
+      </Subgroups>
+      <Q_between>2.96</Q_between>
+      <df_between>1</df_between>
+      <P_between>.228</P_between>
+    </Analysis>
+    <Analysis id="6" type="PublicationBias">
+      <EggerIntercept>1.87</EggerIntercept>
+      <EggerSE>0.94</EggerSE>
+      <EggerT>1.99</EggerT>
+      <EggerP>.069</EggerP>
+      <TrimFill_k_imputed>2</TrimFill_k_imputed>
+      <TrimFill_g_adjusted>0.362</TrimFill_g_adjusted>
+      <TrimFill_CI_lower>0.241</TrimFill_CI_lower>
+      <TrimFill_CI_upper>0.483</TrimFill_CI_upper>
+      <FailSafeN_Rosenthal>847</FailSafeN_Rosenthal>
+    </Analysis>
+  </Analyses>
+</CMAFile>

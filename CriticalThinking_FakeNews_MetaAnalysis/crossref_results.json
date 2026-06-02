@@ -1,0 +1,336 @@
+[
+  {
+    "key": "ali2023",
+    "citation": "Ali & Qazi (2023) \u2013 J Dev Econ",
+    "doi": "10.1016/j.jdeveco.2023.103100",
+    "status": "HTTP_403",
+    "match": null
+  },
+  {
+    "key": "axelsson2024",
+    "citation": "Axelsson et al. (2024) \u2013 JRTE",
+    "doi": "10.1080/15391523.2024.2338451",
+    "status": "HTTP_403",
+    "match": null
+  },
+  {
+    "key": "basol2020",
+    "citation": "Basol et al. (2020) \u2013 J Cognition",
+    "doi": "10.5334/joc.91",
+    "status": "HTTP_403",
+    "match": null
+  },
+  {
+    "key": "becker2005",
+    "citation": "Becker (2005) \u2013 book chapter",
+    "doi": null,
+    "status": "NO_DOI",
+    "title": "N/A (book/report/preprint)",
+    "crossref_title": null,
+    "year_ok": null,
+    "match": null
+  },
+  {
+    "key": "borenstein2009",
+    "citation": "Borenstein et al. (2009) \u2013 book",
+    "doi": "10.1002/9780470743386",
+    "status": "HTTP_403",
+    "match": null
+  },
+  {
+    "key": "breakstone2019",
+    "citation": "Breakstone et al. (2019) \u2013 Social Education",
+    "doi": null,
+    "status": "NO_DOI",
+    "title": "N/A (book/report/preprint)",
+    "crossref_title": null,
+    "year_ok": null,
+    "match": null
+  },
+  {
+    "key": "butler2024",
+    "citation": "Butler et al. (2024) \u2013 Sci Reports",
+    "doi": "10.1038/s41598-024-62286-7",
+    "status": "HTTP_403",
+    "match": null
+  },
+  {
+    "key": "cohen1988",
+    "citation": "Cohen (1988) \u2013 book",
+    "doi": null,
+    "status": "NO_DOI",
+    "title": "N/A (book/report/preprint)",
+    "crossref_title": null,
+    "year_ok": null,
+    "match": null
+  },
+  {
+    "key": "dersimonian1986",
+    "citation": "DerSimonian & Laird (1986) \u2013 Controlled Clin",
+    "doi": "10.1016/0197-2456(86)90046-2",
+    "status": "HTTP_403",
+    "match": null
+  },
+  {
+    "key": "duval2000",
+    "citation": "Duval & Tweedie (2000) \u2013 Biometrics",
+    "doi": "10.1111/j.0006-341X.2000.00455.x",
+    "status": "HTTP_403",
+    "match": null
+  },
+  {
+    "key": "egger1997",
+    "citation": "Egger et al. (1997) \u2013 BMJ",
+    "doi": "10.1136/bmj.315.7109.629",
+    "status": "HTTP_403",
+    "match": null
+  },
+  {
+    "key": "ennis1989",
+    "citation": "Ennis (1989) \u2013 Educ Researcher",
+    "doi": null,
+    "status": "NO_DOI",
+    "title": "N/A (book/report/preprint)",
+    "crossref_title": null,
+    "year_ok": null,
+    "match": null
+  },
+  {
+    "key": "facione1990",
+    "citation": "Facione (1990) \u2013 Delphi Report",
+    "doi": null,
+    "status": "NO_DOI",
+    "title": "N/A (book/report/preprint)",
+    "crossref_title": null,
+    "year_ok": null,
+    "match": null
+  },
+  {
+    "key": "guess2020",
+    "citation": "Guess et al. (2020) \u2013 PNAS",
+    "doi": "10.1073/pnas.1920498117",
+    "status": "HTTP_403",
+    "match": null
+  },
+  {
+    "key": "higgins2003",
+    "citation": "Higgins et al. (2003) \u2013 BMJ",
+    "doi": "10.1136/bmj.327.7414.557",
+    "status": "HTTP_403",
+    "match": null
+  },
+  {
+    "key": "hobbs2010",
+    "citation": "Hobbs (2010) \u2013 Aspen Institute",
+    "doi": null,
+    "status": "NO_DOI",
+    "title": "N/A (book/report/preprint)",
+    "crossref_title": null,
+    "year_ok": null,
+    "match": null
+  },
+  {
+    "key": "huang2024",
+    "citation": "Huang, Jia & Yu (2024) \u2013 Commun Res",
+    "doi": "10.1177/00936502241288103",
+    "status": "HTTP_403",
+    "match": null
+  },
+  {
+    "key": "hu2023",
+    "citation": "Hu et al. (2023) \u2013 Cogn Res P&I",
+    "doi": "10.1186/s41235-023-00505-x",
+    "status": "HTTP_403",
+    "match": null
+  },
+  {
+    "key": "hwang2025",
+    "citation": "Hwang & Jeong (2025) \u2013 Cyberpsychol",
+    "doi": "10.1089/cyber.2024.0407",
+    "status": "HTTP_403",
+    "match": null
+  },
+  {
+    "key": "lebowitz2024",
+    "citation": "Lebowitz et al. (2024) \u2013 arXiv",
+    "doi": null,
+    "status": "NO_DOI",
+    "title": "N/A (book/report/preprint)",
+    "crossref_title": null,
+    "year_ok": null,
+    "match": null
+  },
+  {
+    "key": "lu2024",
+    "citation": "Lu et al. (2024) \u2013 Cyberpsychol B&SN",
+    "doi": "10.1089/cyber.2023.0324",
+    "status": "HTTP_403",
+    "match": null
+  },
+  {
+    "key": "lu2023",
+    "citation": "Lu et al. (2023) \u2013 JMIR",
+    "doi": "10.2196/49255",
+    "status": "HTTP_403",
+    "match": null
+  },
+  {
+    "key": "mayer2021",
+    "citation": "Mayer (2021) \u2013 book",
+    "doi": null,
+    "status": "NO_DOI",
+    "title": "N/A (book/report/preprint)",
+    "crossref_title": null,
+    "year_ok": null,
+    "match": null
+  },
+  {
+    "key": "mcgrew2020",
+    "citation": "McGrew et al. (2020) \u2013 Social Education",
+    "doi": null,
+    "status": "NO_DOI",
+    "title": "N/A (book/report/preprint)",
+    "crossref_title": null,
+    "year_ok": null,
+    "match": null
+  },
+  {
+    "key": "mcguire1964",
+    "citation": "McGuire (1964) \u2013 Adv Exp Soc Psych",
+    "doi": null,
+    "status": "NO_DOI",
+    "title": "N/A (book/report/preprint)",
+    "crossref_title": null,
+    "year_ok": null,
+    "match": null
+  },
+  {
+    "key": "moore2022",
+    "citation": "Moore & Hancock (2022) \u2013 Sci Reports",
+    "doi": "10.1038/s41598-022-08437-0",
+    "status": "HTTP_403",
+    "match": null
+  },
+  {
+    "key": "page2021",
+    "citation": "Page et al. (2021) \u2013 BMJ (PRISMA 2020)",
+    "doi": "10.1136/bmj.n71",
+    "status": "HTTP_403",
+    "match": null
+  },
+  {
+    "key": "pennycook2020ps",
+    "citation": "Pennycook et al. (2020) \u2013 Psychol Sci",
+    "doi": "10.1177/0956797620939054",
+    "status": "HTTP_403",
+    "match": null
+  },
+  {
+    "key": "pennycook2019",
+    "citation": "Pennycook & Rand (2019) \u2013 Cognition",
+    "doi": "10.1016/j.cognition.2019.03.011",
+    "status": "HTTP_403",
+    "match": null
+  },
+  {
+    "key": "pennycook2021",
+    "citation": "Pennycook & Rand (2021) \u2013 Trends Cogn Sci",
+    "doi": "10.1016/j.tics.2021.02.007",
+    "status": "HTTP_403",
+    "match": null
+  },
+  {
+    "key": "pennycook2022",
+    "citation": "Pennycook & Rand (2022) \u2013 Nat Commun",
+    "doi": "10.1038/s41467-022-30073-5",
+    "status": "HTTP_403",
+    "match": null
+  },
+  {
+    "key": "roozenbeek2019",
+    "citation": "Roozenbeek & van der Linden (2019) \u2013 HSSCOMM",
+    "doi": "10.1057/s41599-019-0279-9",
+    "status": "HTTP_403",
+    "match": null
+  },
+  {
+    "key": "roozenbeek2020",
+    "citation": "Roozenbeek et al. (2020) \u2013 HKS MisinfoRev",
+    "doi": "10.37016/mr-2020-008",
+    "status": "HTTP_403",
+    "match": null
+  },
+  {
+    "key": "roozenbeek2021",
+    "citation": "Roozenbeek et al. (2021) \u2013 HKS MisinfoRev",
+    "doi": "10.37016/mr-2020-47",
+    "status": "HTTP_403",
+    "match": null
+  },
+  {
+    "key": "roozenbeek2022rsos",
+    "citation": "Roozenbeek et al. (2022) \u2013 Royal Soc Open Sci",
+    "doi": "10.1098/rsos.211719",
+    "status": "HTTP_403",
+    "match": null
+  },
+  {
+    "key": "roozenbeek2022sa",
+    "citation": "Roozenbeek et al. (2022) \u2013 Sci Advances",
+    "doi": "10.1126/sciadv.abo6254",
+    "status": "HTTP_403",
+    "match": null
+  },
+  {
+    "key": "roozenbeek2023",
+    "citation": "Roozenbeek et al. (2023) \u2013 Eur Psychol",
+    "doi": "10.1027/1016-9040/a000492",
+    "status": "HTTP_403",
+    "match": null
+  },
+  {
+    "key": "rosenthal1979",
+    "citation": "Rosenthal (1979) \u2013 Psychol Bull",
+    "doi": "10.1037/0033-2909.86.3.638",
+    "status": "HTTP_403",
+    "match": null
+  },
+  {
+    "key": "simchon2025",
+    "citation": "Simchon et al. (2025) \u2013 Curr Opin Psychol",
+    "doi": "10.1016/j.copsyc.2025.102194",
+    "status": "HTTP_403",
+    "match": null
+  },
+  {
+    "key": "stasielowicz2026",
+    "citation": "Stasielowicz (2026) \u2013 Eur J Soc Psychol",
+    "doi": "10.1002/ejsp.70041",
+    "status": "HTTP_403",
+    "match": null
+  },
+  {
+    "key": "sultan2024",
+    "citation": "Sultan et al. (2024) \u2013 PNAS",
+    "doi": "10.1073/pnas.2409329121",
+    "status": "HTTP_403",
+    "match": null
+  },
+  {
+    "key": "vanderlinden2023",
+    "citation": "van der Linden (2023) \u2013 book",
+    "doi": null,
+    "status": "NO_DOI",
+    "title": "N/A (book/report/preprint)",
+    "crossref_title": null,
+    "year_ok": null,
+    "match": null
+  },
+  {
+    "key": "vosoughi2018",
+    "citation": "Vosoughi, Roy & Aral (2018) \u2013 Science",
+    "doi": "10.1126/science.aap9559",
+    "status": "HTTP_403",
+    "match": null
+  }
+]
