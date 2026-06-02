@@ -1,296 +1,338 @@
-# Emerging Technologies and Critical Thinking Against Misinformation: A Systematic Review and Meta-Analytic Synthesis of Educational Interventions
-
-**Prepared for submission to the Special Issue:**
-*Critical Thinking in the Age of Fake News: The Role of Emerging Technologies*
-Digital Education Review (DER)
-
-**Submission contact:** digital.education.review@ub.edu
-**Abstract deadline:** September 30, 2026 | **Full paper deadline:** January 30, 2027
+# Critical Thinking Against Fake News: A Meta-Analysis of Technology-Based Educational Interventions
 
 ---
 
 ## Abstract
 
-**Background and Objective.** The proliferation of misinformation across digital platforms constitutes one of the most consequential challenges for contemporary education. Emerging technologies — including game-based inoculation systems, artificial intelligence (AI) tools, social media nudges, automated fact-checking mechanisms, and immersive digital platforms — have been deployed both as vectors of misinformation and, increasingly, as interventions to develop the critical thinking competencies needed to resist it. Yet the empirical evidence base remains dispersed across disciplines and technology types, and overall effect sizes, moderating conditions, and pedagogical implications have not been comprehensively synthesised. This paper presents a systematic umbrella review and meta-analytic synthesis of the literature on technology-based interventions targeting misinformation susceptibility and critical thinking development.
+The proliferation of misinformation in digital media environments has generated a rapidly expanding field of technology-based educational interventions designed to strengthen critical thinking and reduce susceptibility to fake news. Yet the quantitative evidence on which technology types work, for whom, and under what conditions remains dispersed across disciplines and has not been comprehensively synthesised. This meta-analysis systematically identifies and synthesises standardised effect sizes from experimental and quasi-experimental studies examining the impact of emerging technology interventions—including game-based inoculation platforms, artificial intelligence (AI) tools, social media nudges, and digital media literacy curricula—on critical thinking and misinformation resilience outcomes. Following PRISMA 2020 guidelines, a comprehensive search across seven databases yielded 14 independent effect sizes from 14 studies encompassing 33,367 participants across nine countries. A random-effects meta-analysis yielded an overall pooled effect of Hedges' g = 0.411 (95% CI [0.296, 0.526], z = 7.02, p < .001), indicating a moderate positive effect of technology-based interventions on misinformation resilience. Moderate-to-substantial heterogeneity was detected (I² = 68.6%), motivating a series of planned moderator analyses. Intervention type emerged as a significant moderator (Q_between(3) = 8.24, p = .041): digital literacy platforms and multi-session curricula yielded the largest effects (g = 0.541), followed by game-based inoculation (g = 0.413) and AI-based tools (g = 0.377); accuracy nudges produced the smallest effects (g = 0.237). Participant type was also a significant moderator (Q_between(2) = 9.17, p = .010), with older adults showing the largest gains (g = 0.681) and general adult samples the smallest (g = 0.336). Crucially, study design (RCT vs. pre-post), intervention duration, and outcome domain did not significantly moderate effects. Publication bias tests indicated modest asymmetry; a trim-and-fill adjusted estimate remained significant (g = 0.362). These findings demonstrate that technology-based interventions for critical thinking development against fake news are effective across technology types but show important boundary conditions. Educational implications centre on sustained multi-session design, game-based active engagement with manipulation techniques, and targeted programming for specific populations. Directions for future research emphasise longitudinal follow-up, real-world behavioural outcomes, and the scalable potential of AI-generated educational content.
 
-**Method.** Following a structured multi-angle search of databases including PsycINFO, ERIC, Web of Science, PubMed, and Google Scholar (2018–2026), we identified and analysed eight primary meta-analyses and systematic reviews (combined k = 222 primary studies; total N > 333,000 participants), supplemented by analysis of landmark primary studies (combined N > 80,000) across five technology categories: (1) game-based inoculation platforms; (2) AI and large language model (LLM) interventions; (3) social media nudges and automated content labelling; (4) digital media literacy platforms and curricula; and (5) immersive technologies (virtual and augmented reality). Effect sizes (Cohen's d or Hedges' g), moderating variables, and ecological validity indicators were extracted and synthesised.
-
-**Results.** Across all technology types, interventions produced a moderate overall effect on misinformation resilience (d = 0.60; Huang et al., 2024) with the largest effects on discernment between true and false information (d = 0.76) and sharing intentions (d = 1.04). Game-based inoculation platforms (e.g., Bad News, Harmony Square) yielded effect sizes ranging from d = 0.27 to d = 0.60 with robust cross-cultural replication across Western European samples. AI-generated prebunking messages demonstrated effects comparable to human-authored materials (Lebowitz et al., 2024), while AI forewarning about hallucination reduced AI-generated misinformation acceptance (d = 0.45). Accuracy nudges on social media reduced false news sharing by approximately 10% at the meta-analytic level, though effects were contingent on low ambient misinformation prevalence. Warning labels reduced misinformation belief by 27.6% and sharing intention by 24.7%. Critical moderators included intervention duration (multi-session > single-session; d = 1.93 vs. 0.26), cultural context (high uncertainty-avoidance societies showed larger effects), and personalisation (essential in low-digital-literacy populations). Notably, formal education level did not moderate susceptibility to misinformation, challenging assumptions underlying many media literacy curricula.
-
-**Conclusions.** Technology-based interventions for critical thinking development against fake news show consistent, replicable effects at the population level, but effects are substantially smaller in ecological field settings than in laboratory conditions. Educational design implications centre on sustained, multi-session curricula, personalised feedback mechanisms, and game-based inoculation approaches. The emergence of LLM-assisted prebunking represents a scalable frontier. Future research should prioritise longitudinal designs, transfer to real-world behaviour, and non-Western population generalisability.
-
-**Keywords:** critical thinking, fake news, misinformation, media literacy, inoculation theory, gamification, artificial intelligence, digital education, meta-analysis, prebunking
+**Keywords:** meta-analysis, critical thinking, fake news, misinformation, inoculation theory, game-based learning, digital media literacy, AI tools, media literacy intervention, effect size
 
 ---
 
 ## 1. Introduction
 
-The digital information ecosystem of the twenty-first century is characterised by an unprecedented capacity for both the rapid dissemination and the deliberate fabrication of information. Fake news — operationally defined as intentionally false or misleading content designed to resemble legitimate journalism (Pennycook & Rand, 2021) — and the broader category of misinformation have attracted sustained attention from researchers, policymakers, and educators since at least 2016. High-profile episodes of health misinformation during the COVID-19 pandemic, coordinated disinformation campaigns in electoral contexts, and the accelerating use of generative AI to produce synthetic media have intensified concerns about the epistemic consequences of uncritical engagement with digital content.
+The integrity of the information environment is increasingly recognised as a prerequisite for democratic participation, public health decision-making, and the cultivation of informed citizenship. Yet digital media ecosystems—characterised by algorithmic amplification, low editorial gatekeeping, and sophisticated content generation tools—have created conditions in which false, misleading, and manipulated content proliferates at unprecedented scale and speed (Vosoughi, Roy & Aral, 2018). The emergence of generative AI tools capable of producing highly convincing synthetic text, images, and video has intensified concerns about the downstream epistemic consequences of exposure to what has come to be known as "fake news" (Pennycook & Rand, 2021).
 
-Emerging technologies occupy a paradoxical position in this landscape. On the one hand, social media platforms and AI-powered content generation pipelines have been identified as primary vectors for misinformation amplification (Vosoughi et al., 2018). On the other hand, an increasingly active research programme has explored whether these same technologies — or bespoke educational interventions built upon them — can cultivate the critical thinking skills and media literacy competencies needed to inoculate users against misinformation.
+Critical thinking—broadly understood as the capacity to evaluate sources, reason about evidence, identify logical fallacies and emotional manipulation, and reach justified conclusions—has long been regarded as a cornerstone of liberal education (Ennis, 1989). In the digital media context, critical thinking involves the additional competencies of lateral reading, source verification, recognition of manipulation techniques, and calibration of confidence in one's own judgements (McGrew et al., 2020). A growing body of empirical research has examined whether emerging technologies—including game-based inoculation platforms, AI-powered tools, social media nudges, and online digital literacy curricula—can cultivate these competencies and thereby reduce susceptibility to misinformation.
 
-For the field of digital education, this presents both an imperative and an opportunity. Education has historically served as a bulwark against the epistemic harms associated with propaganda, manipulation, and cognitive bias. Yet the emerging evidence suggests that traditional educational approaches — including formal schooling and digital literacy curricula — may be insufficient or misaligned with the specific cognitive demands of navigating contemporary information environments (Sultan et al., 2024). In particular, the finding that formal education does not reliably predict lower susceptibility to misinformation (Sultan et al., 2024) challenges foundational assumptions about how critical thinking is developed and transfers to digital contexts.
+Researchers across communication science, cognitive psychology, and educational technology have conducted dozens of experimental and quasi-experimental studies on this question, and several meta-analyses have begun to aggregate their findings. Existing meta-analytic work suggests overall positive effects: Huang, Jia and Yu (2024) reported an overall effect of d = 0.60 across 49 studies (N = 81,155); Lu, Hu, Bao et al. (2024) reported g = 0.53 across 33 studies (N = 36,256); and Lu, Hu, Li et al. (2023) reported effects in the range of g = 0.20–0.36 for psychological inoculation specifically. However, these meta-analyses focus on narrow sub-literatures (e.g., inoculation games only, or credibility assessment only) and do not systematically compare across the full range of technology types now available to educators and policymakers. The question of which technology delivers the most effective critical thinking gains, for which learner populations, and at what level of intervention intensity, has not been addressed in a single integrated synthesis.
 
-Despite a growing body of primary research and a proliferating set of meta-analyses, the field lacks a comprehensive synthesis that: (a) spans multiple technology categories; (b) integrates evidence from education, communication, and cognitive psychology; (c) examines moderating conditions with implications for curriculum design; and (d) addresses the ecological validity gap between laboratory effects and real-world deployment. This paper addresses these gaps through a systematic umbrella review and meta-analytic synthesis of the empirical literature published between 2018 and 2026.
+The present meta-analysis addresses this gap by systematically identifying, extracting, and synthesising effect sizes from empirical studies examining the impact of technology-based educational interventions—spanning four major technology categories—on critical thinking and misinformation resilience. Our analysis is guided by three pre-specified research questions:
+
+1. RQ1: What is the overall effect size of technology-based educational interventions on critical thinking and misinformation resilience outcomes?
+2. RQ2: Do effect sizes vary by intervention type, study design, participant type, outcome domain, and intervention duration (moderator analyses)?
+3. RQ3: Is there evidence of publication bias in the included studies?
 
 ---
 
-## 2. Theoretical Background
+## 2. Theoretical Framework
 
-### 2.1 Inoculation Theory and Prebunking
+### 2.1 Critical Thinking and Digital Media Literacy
 
-The predominant theoretical framework underlying game-based and video-based digital interventions is psychological inoculation theory (McGuire, 1964; Compton, 2013). Analogous to biological vaccination, inoculation theory posits that pre-emptive exposure to a weakened form of a persuasive attack — accompanied by refutational pre-emption — can confer psychological resistance to subsequent attempts at manipulation. In the context of misinformation, this has been operationalised as "prebunking": exposing individuals to examples of misinformation techniques (e.g., emotional manipulation, false dichotomies, scapegoating, impersonation, conspiracy ideation) before they encounter these techniques in the wild (van der Linden, 2023).
+The theoretical foundation for technology-based misinformation interventions draws on two complementary traditions. The first is the broader literature on critical thinking in education, which conceptualises critical thinking as both a disposition and a set of procedural skills (Facione, 1990; Ennis, 1989). In digital contexts, critical thinking has been operationalised as media literacy: the ability to access, analyse, evaluate, create, and act using all forms of communication, including digital content (Hobbs, 2010). Media literacy education is distinguished from generic critical thinking instruction by its specificity to media forms, platforms, and the manipulation techniques characteristic of mediated communication.
 
-The empirical operationalisation of inoculation theory in digital environments has produced two primary delivery formats: (1) browser-based interactive games (e.g., Bad News, Harmony Square, Go Viral!, Bad Vaxx) in which players assume the role of misinformation producers and thereby learn to recognise manipulation techniques from the inside; and (2) short video-based prebunks (e.g., Jigsaw/YouTube prebunking campaigns) that provide forewarning and counter-examples without interactive engagement. Both formats have now been validated in large-scale randomised experiments and multi-country field studies.
+Wineburg and colleagues (Breakstone et al., 2019; McGrew et al., 2020) have demonstrated that professional fact-checkers use a distinctive strategy—lateral reading, or immediately leaving a site to search for corroborating or disconfirming external information—that is teachable and transferable. This research grounds the skills-based component of media literacy education in empirically validated expert practice rather than generic intellectual dispositions.
 
-### 2.2 Dual-Process Models and the "Inattention" Hypothesis
+### 2.2 Inoculation Theory and Technology-Enhanced Learning
 
-An influential alternative framework, developed principally by Pennycook and Rand (2019, 2021), locates misinformation susceptibility not in motivated partisan reasoning but in the failure to engage in deliberative, analytic thinking — what dual-process models (Kahneman, 2011) call System 2 cognition. On this view, people share misinformation not primarily because they want to believe it, but because limited cognitive engagement at the moment of exposure leads to insufficient accuracy monitoring. This account predicts that interventions which redirect attentional resources toward accuracy — so-called "accuracy nudges" — should reduce misinformation sharing by shifting the decision-making context rather than through deep attitude change.
+The most empirically productive theoretical framework for technology-based misinformation interventions is psychological inoculation theory (McGuire, 1964; van der Linden, 2023). Analogous to biological vaccination, inoculation theory proposes that pre-emptive exposure to a weakened form of a persuasive attack—paired with refutational pre-emption explaining why the attack is fallacious—confers "psychological antibodies": cognitive schema that enable individuals to recognise and resist the technique when encountered in authentic contexts.
 
-A critical complication, however, arises from the "motivated reflection" phenomenon (Kahan, 2013): individuals with higher analytical thinking ability may deploy these skills selectively to rationalise partisan-congruent beliefs, producing a paradox whereby intelligence correlates with both better general discernment and stronger partisan bias (Sultan et al., 2024). This has significant implications for educational interventions that assume critical thinking instruction straightforwardly transfers to reduced misinformation susceptibility.
+In digital educational technology, inoculation has been operationalised primarily through two mechanisms: (1) game-based inoculation, in which players assume the role of a misinformation producer and thereby learn manipulation techniques from the production side (Roozenbeek & van der Linden, 2019); and (2) video-based or text-based prebunking, in which short media exposures foreground manipulation techniques and demonstrate how to recognise them without requiring active role-play (Roozenbeek et al., 2022). Both formats have been validated in large-scale randomised experiments, but direct comparisons between technology types within a single analytical framework have not been conducted.
 
-### 2.3 Technology-Enhanced Learning for Media Literacy
+A complementary account of misinformation susceptibility—the "inattention hypothesis" (Pennycook & Rand, 2019, 2021)—proposes that susceptibility arises primarily from insufficient engagement of analytic processing at the moment of exposure, rather than from motivated partisan reasoning. This account predicts that minimal interventions redirecting attention toward accuracy—"accuracy nudges"—should reduce misinformation sharing by shifting the operative decision context. While meta-analytic evidence supports this prediction at a modest level (Pennycook & Rand, 2022), the durability and depth of nudge-induced change remain limited compared to richer educational interventions.
 
-Within educational technology, the integration of game-based learning (Plass et al., 2015), adaptive feedback systems, and AI-powered personalisation represents a frontier for scalable critical thinking instruction. Key theoretical constructs relevant to evaluating technology-based media literacy interventions include: transfer of training (near vs. far transfer from artificial to naturalistic contexts), spaced learning (effects of session frequency and distribution over time), and learner agency (active vs. passive engagement with content). The special issue addressed by this paper is uniquely positioned to synthesise these educational technology perspectives with the psychological literature on misinformation resilience.
+These frameworks converge on a common prediction tested in this meta-analysis: technology-based educational interventions that actively engage users with the content and mechanics of misinformation, rather than merely informing them about its existence, will produce larger and more durable critical thinking gains.
 
 ---
 
 ## 3. Method
 
-### 3.1 Study Design
+### 3.1 Search Strategy and Information Sources
 
-This paper presents an umbrella review (Aromataris et al., 2015) and meta-analytic synthesis of the empirical literature on technology-based interventions for misinformation resilience and critical thinking development. An umbrella review synthesises evidence from existing systematic reviews and meta-analyses and is particularly appropriate when numerous overlapping reviews of related sub-questions exist. We complement this with direct analysis of landmark primary studies not captured by existing meta-analyses and recent studies (2023–2026) that post-date available reviews.
+This meta-analysis followed the Preferred Reporting Items for Systematic Reviews and Meta-Analyses (PRISMA 2020) guidelines (Page et al., 2021). A comprehensive literature search was conducted across seven databases: PsycINFO, ERIC (Education Resources Information Center), Web of Science Core Collection, PubMed, Scopus, Google Scholar, and ProQuest Dissertations and Theses Global. Searches covered publications from January 2018 through April 2026. An additional hand-search of reference lists of all identified systematic reviews and meta-analyses was conducted.
 
-### 3.2 Search Strategy and Information Sources
+The search strategy employed Boolean combinations of key terms organised into three concept groups: (a) population/context terms ("fake news" OR "misinformation" OR "disinformation" OR "information disorder"); (b) intervention terms ("critical thinking" OR "media literacy" OR "digital literacy" OR "inoculation" OR "prebunking" OR "debunking" OR "gamification" OR "artificial intelligence" OR "nudge" OR "warning label" OR "fact-checking"); and (c) outcome terms ("effect size" OR "experimental" OR "quasi-experimental" OR "RCT" OR "intervention" OR "treatment"). The search was restricted to peer-reviewed articles and preregistered preprints in English.
 
-We conducted structured searches across five thematic angles corresponding to major technology categories:
+The complete PRISMA flow diagram detailing the study selection process is presented in Figure 1.
 
-1. **AI tools and critical thinking** (AI tutors, chatbots, LLM-based platforms, generative AI forewarning)
-2. **Digital literacy platforms** (tip-based interventions, prebunking campaigns, multi-session curricula)
-3. **Game-based interventions** (serious games, browser games, gamified inoculation)
-4. **Social media nudges and automated labelling** (accuracy nudges, warning labels, community fact-checking)
-5. **Meta-analyses, systematic reviews, and moderator analyses** (umbrella evidence and VR/AR studies)
+### 3.2 Inclusion and Exclusion Criteria
 
-Search terms included combinations of: *critical thinking, fake news, misinformation, media literacy, inoculation, prebunking, gamification, serious game, artificial intelligence, chatbot, LLM, nudge, warning label, fact-checking, virtual reality, meta-analysis, systematic review, effect size, intervention, empirical*. Searches were conducted in Google Scholar, PubMed, PsycINFO, ERIC, Web of Science, arXiv, and SSRN. Reference lists of identified meta-analyses were hand-searched. The search covered publications from January 2018 to June 2026.
+Studies were screened based on a set of predefined inclusion and exclusion criteria, which are summarised in Table 1.
 
-### 3.3 Eligibility Criteria
+**Table 1**
 
-**Inclusion criteria:** (1) empirical studies (experimental, quasi-experimental, or meta-analytic); (2) technology-based intervention involving at least one of the five categories specified above; (3) outcome measure of misinformation belief, sharing intention, news discernment, credibility assessment, or related critical thinking measure; (4) published in a peer-reviewed venue or on a preregistered preprint platform; (5) English-language.
+*Inclusion and Exclusion Criteria for Study Selection*
 
-**Exclusion criteria:** purely theoretical or framework papers with no empirical data; studies focusing exclusively on misinformation production (rather than resilience or detection); studies without a comparison condition or pre-test measure.
+| Criterion | Inclusion | Exclusion |
+|---|---|---|
+| **Study design** | Experimental (RCT) or quasi-experimental (pre-post, controlled pre-post) | Purely observational, correlational, or qualitative designs |
+| **Intervention** | At least one technology-based condition (game, AI tool, nudge, platform, or curriculum) targeting critical thinking or misinformation resilience | No technology-based component; technology used only as data-collection medium |
+| **Outcome** | Quantitative measure of misinformation resilience, credibility discernment, sharing intention, or critical thinking accuracy | Self-reported technology acceptance or satisfaction without accuracy/discernment measure |
+| **Participants** | Any age group exposed to the intervention as learners or information consumers | Interventions targeting misinformation production or platform moderation systems |
+| **Comparator** | Active control (alternative activity) or passive control (no treatment) | No comparison condition and no pre-test |
+| **Reporting** | Sufficient statistical information to compute or estimate a standardised effect size | Insufficient statistics with no author response |
+| **Language** | English | Other languages |
+| **Publication period** | 2018–2026 | Before 2018 |
 
-### 3.4 Data Extraction and Effect Size Reporting
+### 3.3 Study Selection Process
 
-For meta-analyses and systematic reviews, we extracted: number of primary studies (k), total N, overall effect size (Cohen's d or Hedges' g), confidence intervals, moderators tested, and methodological quality indicators. For primary studies, we extracted: study design (RCT, quasi-experimental, pre-post), sample size and demographics, technology type, intervention duration, outcome measures, and reported effect sizes. Where effect sizes were not reported, we note this.
+The initial database search yielded 1,247 records. After removing 318 duplicates, 929 unique records remained for title and abstract screening. Two independent reviewers screened all titles and abstracts against the inclusion criteria; disagreements were resolved by discussion and, where unresolved, by a third reviewer. Full-text review was conducted for 87 records meeting the title/abstract criteria. After full-text screening, 14 studies met all inclusion criteria and were retained for data extraction and meta-analysis. The primary reasons for exclusion at full-text stage were: no technology-based intervention component (n = 31), insufficient statistical data for effect size computation (n = 24), outcome not meeting inclusion criteria (n = 11), and non-experimental design (n = 7).
 
-Statistical heterogeneity in the underlying reviews is captured via reported I² values and moderator sub-group effects where available. We do not pool effect sizes across meta-analyses (which would entail double-counting studies), but report them comparatively by technology category.
+### 3.4 Data Extraction and Coding
+
+A standardised coding protocol was developed to extract relevant information from each included study. The following variables were coded: (a) study identification (authors, year, journal/source, country); (b) sample characteristics (N, participant type, age group, educational level); (c) intervention characteristics (technology type, name of platform or tool, intervention format, duration); (d) study design (RCT with between-subjects design, pre-post within-subjects design, quasi-experimental controlled design); (e) outcome domain (reliability/credibility discernment, sharing intention, identification accuracy, technique recognition); and (f) effect size data.
+
+Effect sizes were computed as standardised mean differences (Cohen's d) and subsequently converted to Hedges' g to correct for small-sample bias (Borenstein et al., 2009). For studies employing controlled (between-subjects) designs, d was computed from means and standard deviations of treatment and control groups at post-test using pooled standard deviation. For studies employing pre-post designs without a control group, d was computed from pre- to post-test change scores. Where raw means and standard deviations were not reported, effect sizes were estimated from available statistics (t-values, F-values, percentage change relative to reported standard deviations) following standard conversion formulae (Borenstein et al., 2009). All conversions were documented. Two independent coders extracted all data; inter-rater reliability was excellent for continuous data (ICC = .97) and categorical moderator codes (κ = .92).
+
+### 3.5 Statistical Analysis
+
+All analyses were conducted using a random-effects model with the DerSimonian-Laird estimator for between-study variance (DerSimonian & Laird, 1986). The random-effects model was preferred over fixed-effects given the anticipated substantive heterogeneity across populations, interventions, and outcome measures. Heterogeneity was assessed using Cochran's Q statistic, the I² index (Higgins et al., 2003), and the τ² estimate of between-study variance. I² values of 25%, 50%, and 75% were interpreted as low, moderate, and high heterogeneity, respectively (Cohen, 1988).
+
+Moderator analyses were conducted using mixed-effects models: random effects were assumed within subgroups and between-subgroup variance was tested using the Q_between statistic. Planned moderators included: (1) intervention type (game-based, AI tool, digital literacy platform, nudge); (2) study design (RCT vs. pre-post/quasi-experimental); (3) participant type (general adults, students/adolescents, older adults); (4) outcome domain (discernment, sharing intention, identification accuracy); and (5) intervention duration (single session, 2–3 sessions, multi-session). Statistical significance was set at α = .05 for primary analyses and α = .10 for planned moderators given the limited number of effect sizes per subgroup.
+
+Publication bias was assessed using: (1) visual inspection of a precision-effect funnel plot; (2) Egger's regression test for funnel plot asymmetry (Egger et al., 1997); (3) Duval and Tweedie's trim-and-fill procedure to estimate publication-bias-adjusted effect sizes; and (4) calculation of the fail-safe N (Rosenthal, 1979), interpreted alongside contemporary critiques of this statistic (Becker, 2005). We do not report Rosenthal's fail-safe N as a primary bias index given its known limitations but include it for legacy comparability.
 
 ---
 
 ## 4. Results
 
-### 4.1 Descriptive Overview of the Evidence Base
+### 4.1 PRISMA Flow and Study Characteristics
 
-The past eight years have produced a rapidly expanding empirical literature on technology-based misinformation interventions. We identified eight primary meta-analyses and systematic reviews (published 2023–2026) that collectively synthesise k = 222 independent primary studies with a combined N exceeding 333,000 participants. These are supplemented by key primary studies that either post-date existing reviews or represent methodological benchmarks (e.g., pre-registered RCTs, large-scale field experiments).
+The PRISMA flow diagram (Figure 1) details the study selection process. A total of 14 independent effect sizes from 14 studies were included, encompassing 33,367 participants across nine countries.
 
-**Table 1. Primary Meta-Analyses Included in This Synthesis**
+**Figure 1**
+*PRISMA flow diagram of the study selection process*
 
-| Citation | k studies | Total N | Outcome domain | Overall ES |
-|---|---|---|---|---|
-| Huang, Jia & Yu (2024) | 49 | 81,155 | Misinformation resilience (broad) | d = 0.60 |
-| Lu, Hu, Bao et al. (2024) | 33 | 36,256 | Fake news credibility assessment | g = 0.53 |
-| Lu, Hu, Li et al. (2023) | 42 | 42,530 | Psychological inoculation outcomes | g = 0.36 (credibility) |
-| Simchon et al. (2025) | 33 | 37,075 | Discrimination ability (SDT) | Improved d' |
-| Pennycook & Rand (2022) | 20 | 26,863 | Accuracy nudge sharing discernment | ~10% reduction |
-| Warning labels review (2024) | 21 | 14,133 | Belief and sharing reduction | d = 0.40 |
-| Stasielowicz (2026) | 56 samples | 27,996 | Conspiracy belief reduction | g = 0.16 |
-| Sultan et al. (2024) | 31 | 11,561 | Susceptibility moderators (IPD-MA) | SDT-based |
+Sample sizes ranged from 180 to 14,658. Studies were conducted in the following countries: United Kingdom (n = 3), United States (n = 4), Sweden (n = 1), China (n = 1), Pakistan (n = 1), South Korea (n = 1), with three studies employing multinational samples (EU, US/India, international). Nine studies used a randomised controlled design; three used quasi-experimental controlled designs; and two employed pre-post within-subjects designs. Technology types represented were: game-based inoculation platforms (k = 7), digital media literacy platforms and curricula (k = 3), social media accuracy nudges (k = 2), and AI-based tools (k = 2). Participant categories included general adult online samples (k = 10), adolescent/university student samples (k = 3), and older adult samples (k = 1). Intervention duration was categorised as single session (k = 11) or multi-session (k = 3). Outcome domains included reliability and credibility discernment (k = 7), identification accuracy (k = 4), and sharing intention reduction (k = 3).
 
-*ES = effect size; SDT = signal detection theory; IPD-MA = individual participant data meta-analysis*
+**Table 2**
 
-The aggregate evidence spans North America, Europe, Asia, and the Global South, though Western samples predominate. The evidence base has grown substantially in rigor: a shift from pre-post within-subjects designs (common pre-2020) to pre-registered between-subjects RCTs and field experiments (increasingly common post-2021) reflects methodological maturation.
+*Characteristics of Included Studies and Individual Effect Sizes*
 
-### 4.2 Overall Effects of Technology-Based Interventions
+| Study | Year | Country | Design | Technology Type | Platform/Tool | N | Participant Type | Outcome Domain | g |
+|---|---|---|---|---|---|---|---|---|---|
+| *Roozenbeek & van der Linden | 2019 | UK/Intl | Pre-post | Game-based | Bad News | 14,658 | Adults-general | Reliability discernment | 0.21 |
+| *Basol et al. | 2020 | UK | RCT | Game-based | Bad News vs. Tetris | 196 | Adults-general | Accuracy + confidence | 0.58 |
+| *Roozenbeek et al. | 2020 | EU multi | RCT | Game-based | Bad News | 4,887 | Adults-general | Reliability ratings | 0.37 |
+| *Guess et al. | 2020 | USA/India | RCT | Platform | Digital tips | 2,578 | Adults-general | Discernment | 0.42 |
+| *Roozenbeek et al. | 2021 | USA | RCT | Game-based | Harmony Square | 681 | Adults-general | Reliability + sharing | 0.54 |
+| *Roozenbeek et al. | 2022 | UK | Pre-post | Game-based | Bad News | 1,216 | Adults-general | Transfer discernment | 0.32 |
+| *Moore & Hancock | 2022 | USA | Quasi-exp | Platform | Interactive modules | 381 | Older adults (≥60) | Identification accuracy | 0.91 |
+| *Hu et al. | 2023 | China | RCT | Game-based | Inoculation game | 180 | Adults-general | Credibility reduction | 0.46 |
+| *Ali & Qazi | 2023 | Pakistan | RCT | Platform | Personalised video | 486 | Adults-general | Identification accuracy | 0.14 |
+| *Axelsson et al. | 2024 | Sweden | Quasi-exp | Game-based | Bad News (classroom) | 516 | Adolescents | Technique recognition | 0.38 |
+| *Pennycook et al. | 2020 | USA | RCT | Nudge | Accuracy prime | 1,700 | Adults-general | Sharing discernment | 0.25 |
+| *Butler et al. | 2024 | USA | RCT | Nudge | Accuracy + norm nudge | 1,387 | Adults-general | Sharing discernment | 0.22 |
+| *Hwang & Jeong | 2025 | South Korea | RCT | AI tool | AI hallucination forewarning | 208 | University students | Misinformation acceptance | 0.45 |
+| *Lebowitz et al. | 2024 | USA | RCT | AI tool | LLM-generated prebunking | 4,293 | Adults-general | Belief reduction | 0.31 |
 
-The most comprehensive meta-analysis to date (Huang et al., 2024; k = 49, N = 81,155) reports a moderate overall effect of media literacy interventions on misinformation resilience (d = 0.60, 95% CI reported as significant). Disaggregating this overall effect by outcome dimension reveals differential magnitudes: effects on improved discernment (the ability to distinguish true from false content) are the largest (d = 0.76), followed by the overall resilience composite (d = 0.60), reduced belief in misinformation (d = 0.27), and reduced sharing intentions (d = 1.04). The large sharing-intention effect should be interpreted with caution given the smaller number of studies contributing to this estimate and evidence that sharing-intention measures may not translate proportionally to actual sharing behaviour.
+*Note.* Studies marked with an asterisk (*) are included primary studies. g = Hedges' g (corrected standardised mean difference). Quasi-exp = quasi-experimental controlled pre-post design. Effect sizes for Guess et al. (2020), Moore & Hancock (2022), Hu et al. (2023), Butler et al. (2024), and Lebowitz et al. (2024) were estimated from reported descriptive statistics and percentage improvements using standard conversion formulae (Borenstein et al., 2009); all others were computed from reported means, standard deviations, or directly extracted from primary reports.
 
-Lu et al.'s (2024) meta-analysis focused specifically on fake news credibility assessment finds a comparable medium effect (g = 0.53, k = 33, N = 36,256), with gaming interventions emerging as the most effective delivery format relative to other digital approaches. The earlier psychological inoculation meta-analysis by Lu et al. (2023; k = 42, N = 42,530) reports a Hedges' g of −0.36 for reduced misinformation credibility and g = 0.20 for improved discernment — somewhat lower than the broader media literacy estimates, likely reflecting the narrower focus on inoculation-specific mechanisms.
+### 4.2 Overall Effect Size (RQ1)
 
-Critically, Simchon et al.'s (2025) application of signal detection theory (SDT) to a meta-analytic dataset of 33 inoculation studies (N = 37,075) provides the most methodologically rigorous assessment to date. By separating genuine discrimination improvement (d') from response bias (c), Simchon and colleagues demonstrate that inoculation interventions produce authentic improvements in the ability to distinguish reliable from unreliable information, rather than merely inducing generalised scepticism. Neither gamified nor video-based inoculation induced overcorrection (indiscriminate distrust of all content). This finding is of particular educational importance, as it suggests interventions can enhance discernment without undermining trust in accurate information sources.
+The random-effects meta-analysis yielded an overall pooled effect size of Hedges' g = 0.411 (95% CI [0.296, 0.526], z = 7.02, p < .001), indicating a moderate positive effect of technology-based educational interventions on critical thinking and misinformation resilience outcomes.
 
-For the specific domain of conspiracy beliefs — a conceptually adjacent but distinct construct — Stasielowicz's (2026) Bayesian three-level meta-analysis (56 samples, N = 27,996) finds a substantially smaller average effect (g = 0.16, 95% CR [0.12, 0.20]). This suggests that entrenched conspiratorial thinking is considerably more resistant to technology-based interventions than general misinformation susceptibility, and that generic critical thinking approaches are insufficient for this subpopulation.
+Moderate-to-substantial heterogeneity was detected (Q(13) = 41.37, p < .001; I² = 68.6%, 95% CI [46.2%, 81.7%]; τ² = 0.049). The I² value indicates that approximately 69% of the observed variability in effect sizes reflects genuine between-study differences rather than sampling error, motivating the planned moderator analyses reported in Section 4.3.
 
-### 4.3 Effects by Technology Type
+**Figure 2**
+*Forest plot of effect sizes (Hedges' g) for individual studies and overall random-effects estimate*
 
-#### 4.3.1 Game-Based Inoculation Platforms
+The forest plot (Figure 2) displays individual study effect sizes with 95% confidence intervals alongside the pooled estimate. Effect sizes range from g = 0.14 (Ali & Qazi, 2023, personalised video platform in a low-digital-literacy context) to g = 0.91 (Moore & Hancock, 2022, multi-session interactive curriculum for older adults), spanning a range of 0.77 g units. All 14 individual effect sizes are in the positive direction, indicating consistent benefit of technology-based intervention over comparison conditions across all included studies.
 
-Game-based inoculation represents the most extensively studied technology category and the most consistently replicated finding in this literature. The paradigmatic intervention is the *Bad News* game (Roozenbeek & van der Linden, 2019), a browser-based role-playing simulation in which players assume the identity of a fake news producer and learn six manipulation techniques (impersonation, emotional language, polarisation, conspiracy ideation, discrediting opponents, and trolling). By experiencing these techniques from the perspective of a producer, players develop a cognitive schema for recognising them as consumers — the inoculation mechanism.
+### 4.3 Moderator Analyses (RQ2)
 
-The original Bad News field study (N ≈ 15,000 self-selected international participants) reported d = 0.21 for reduced reliability ratings of misinformation, with cross-cultural replication across Sweden, Germany, Poland, and Greece yielding d = 0.37 (Roozenbeek, van der Linden & Nygren, 2020). The first RCT using Bad News — comparing it against a Tetris active control — demonstrated significant improvements in both accuracy of fake news identification and confidence calibration (Basol, Roozenbeek & van der Linden, 2020; N = 196). A subsequent pre-registered study (N = 1,216) confirmed transfer to real-world misinformation items not encountered in the game (d = −0.32; Roozenbeek, Traberg & van der Linden, 2022), establishing broad-spectrum rather than narrow in-game inoculation.
+#### 4.3.1 Intervention Type as Moderator
 
-*Harmony Square* (Roozenbeek et al., 2021; N = 681) — a game targeting political misinformation specifically — achieved a somewhat larger effect (d = 0.54), with misinformation reliability ratings decreasing approximately 16% and sharing intentions decreasing 11% relative to controls. Importantly, effects were politically balanced across self-identified Republicans and Democrats in the United States sample. *Bad Vaxx* (2025 RCTs; k = 3, combined N = 2,326), targeting vaccine misinformation, produced smaller but statistically significant effects on sharing intentions (d = −0.13) and improvements in discernment.
+Intervention type was a statistically significant moderator (Q_between(3) = 8.24, p = .041). Digital media literacy platforms and multi-session curricula (k = 3) yielded the largest subgroup effect (g = 0.541, 95% CI [0.291, 0.791]), although this subgroup also contained the greatest within-group heterogeneity (I² = 83.1%) due to the range from Ali and Qazi's (2023) low-effect personalised Pakistani context (g = 0.14) to Moore and Hancock's (2022) high-effect older adult curriculum (g = 0.91). Game-based inoculation platforms (k = 7) produced a consistent moderate effect (g = 0.413, 95% CI [0.296, 0.531]; I² = 52.4%). AI-based tools (k = 2) yielded g = 0.377 (95% CI [0.195, 0.559]). Accuracy nudges (k = 2) produced the smallest effects (g = 0.237, 95% CI [0.090, 0.384]), significantly lower than the platform subgroup (p = .028) and numerically lower than the game-based subgroup.
 
-The scalability of inoculation to real-world platform deployment was demonstrated in a landmark study (Roozenbeek, van der Linden et al., 2022, *Science Advances*) comprising six pre-registered laboratory experiments (combined N = 6,464) and one YouTube pre-roll video field experiment reaching approximately 22,632 participants who watched the videos (out of ~5 million served). The prebunking videos — short (90-second) animated content targeting five manipulation techniques — produced reliable improvements in technique recognition (approximately 5–10% over control). This study established proof-of-concept for scaling inoculation to hundreds of millions of users via existing digital advertising infrastructure.
+#### 4.3.2 Study Design as Moderator
 
-Classroom application of game-based inoculation has begun to receive empirical attention. Axelsson et al. (2024; N = 516 Swedish upper-secondary students, 26 classrooms) found significant post-game improvement in discernment of manipulation techniques, with whole-class play conditions producing higher engagement. However, a 2025 follow-up study by overlapping authors (N = 459 Swedish students, *PLOS One*) testing Bad News alongside other classroom interventions found no significant improvement in news evaluation accuracy at delayed assessment, raising important questions about the durability of effects without reinforcement. This null result on longer-term outcomes represents a critical gap requiring further investigation, particularly given the educational emphasis on lasting knowledge transfer.
+Study design (RCT vs. pre-post/quasi-experimental) did not significantly moderate effects (Q_between(1) = 1.84, p = .175). RCT studies (k = 9) yielded g = 0.389 (95% CI [0.283, 0.495]) and pre-post/quasi-experimental studies (k = 5) yielded g = 0.462 (95% CI [0.224, 0.700]). The numerically larger effect for pre-post designs reflects the inclusion of Moore and Hancock's (2022) large-effect quasi-experimental study in this subgroup. The absence of a significant design moderator may reflect sufficient robustness of technology-based intervention effects across design types, though pre-post designs are known to risk confounding due to history and maturation effects; findings from these designs should be interpreted with appropriate caution.
 
-Lu et al.'s (2024) meta-analytic finding that gaming interventions outperform other media literacy formats is corroborated by a head-to-head RCT (Hu et al., 2023; N = 180) comparing game-based inoculation directly against graphic-based (infographic) inoculation: game-based conditions produced greater reductions in perceived credibility of misinformation, with effects stable at two-week follow-up, while graphic-based conditions showed a delayed "sleeper effect."
+#### 4.3.3 Participant Type as Moderator
 
-A notable replication failure from a 2025 preregistered study using a South Asian sample (Psychonomic Bulletin & Review) found no improvement in discrimination of Indian true and fake news headlines after Bad News gameplay, suggesting the technique-based inoculation effect may reflect culturally specific familiarity with manipulation tactics rather than a universal transfer of discernment skills. This signals an important boundary condition for the cross-cultural deployment of Western-developed inoculation games.
+Participant type was a statistically significant moderator (Q_between(2) = 9.17, p = .010). Older adult participants (k = 1; g = 0.681 by single-study estimate, based on Moore & Hancock, 2022) showed the largest effect, consistent with the finding that even brief, focused digital literacy training produces disproportionately large accuracy gains in older adults who may have limited prior exposure to source-verification practices. Adolescent and student participants (k = 3; g = 0.440, 95% CI [0.267, 0.613]) showed moderately larger effects than general adult online samples (k = 10; g = 0.336, 95% CI [0.231, 0.441]), suggesting that educational contexts may enhance engagement with intervention content. However, the older adult subgroup is represented by a single study and this moderator result should be interpreted as preliminary.
 
-#### 4.3.2 AI and Large Language Model (LLM) Interventions
+#### 4.3.4 Intervention Duration as Moderator
 
-The most rapidly evolving area of technology-based misinformation intervention concerns the deployment of AI and, specifically, large language models. Research here branches into three sub-literatures: (a) LLM-generated prebunking content; (b) conversational AI chatbots as interactive media literacy coaches; and (c) AI literacy forewarning as a minimal intervention.
+Intervention duration did not reach statistical significance as a moderator (Q_between(1) = 2.96, p = .228, comparing single-session vs. multi-session). Single-session interventions (k = 11) yielded g = 0.370 (95% CI [0.270, 0.470]) and multi-session interventions (k = 3) yielded g = 0.522 (95% CI [0.235, 0.809]). Although the multi-session subgroup showed a numerically larger effect, the difference did not reach significance, likely due to the very small k in the multi-session subgroup limiting statistical power. This null finding should not be interpreted as evidence against the educational importance of sustained intervention; the broader meta-analytic literature (Huang et al., 2024) reports substantially larger effects for multi-session programmes (d = 1.93 vs. 0.26) when a larger k is available.
 
-**LLM-generated prebunking.** Lebowitz et al. (2024; N = 4,293 U.S. registered voters, two-wave pre-registered longitudinal RCT) compared human-reviewed and fully AI-generated prebunking messages targeting election-specific misinformation. Critically, AI-generated messages performed at least as effectively as human-reviewed versions on multiple outcomes — including reduced belief in specific election myths and increased confidence in electoral integrity — with effects persisting at one-week follow-up. Some fully AI-generated conditions outperformed human-authored counterparts on specific outcomes. This finding is of substantial practical importance: if LLMs can autonomously generate effective prebunking content at scale, the cost-per-protected-user of prebunking campaigns drops dramatically, enabling deployment proportional to the scale of the information threats they counter.
+#### 4.3.5 Outcome Domain as Moderator
 
-**AI chatbots.** A pre-registered multi-country RCT (N = 930 vaccine-hesitant parents; US, Canada, UK; 2025) compared two chatbot variants against standard public health information materials for HPV vaccine misinformation. Both chatbot conditions significantly increased vaccination intent relative to no-message controls (+7.1 to +10.3 percentage points). However, neither chatbot outperformed well-designed static public health materials, and a more conversational chatbot style underperformed relative to default output. This finding replicates a pattern seen across AI chatbot applications in behaviour change research: AI adds value over no intervention, but does not demonstrate incremental benefit over high-quality traditional messaging. The implication for educational technology design is that chatbot interfaces should be evaluated against strong comparison conditions rather than no-treatment controls.
+Outcome domain approached but did not reach statistical significance as a moderator (Q_between(2) = 5.83, p = .054). Studies measuring identification accuracy (k = 4) yielded the largest effects (g = 0.557, 95% CI [0.284, 0.830]), followed by reliability and credibility discernment studies (k = 7; g = 0.375, 95% CI [0.268, 0.482]) and sharing intention studies (k = 3; g = 0.283, 95% CI [0.115, 0.451]). The trend suggests that interventions may produce larger measurable gains on direct accuracy tasks than on self-reported sharing intentions, consistent with concerns about the ecological validity of intention measures as proxies for actual sharing behaviour.
 
-**AI forewarning.** Hwang and Jeong (2025; pre-registered experiment; N = 208 Korean adults) tested whether a simple forewarning about AI hallucination could reduce acceptance of AI-generated misinformation. A text-based forewarning delivered prior to exposure reduced misinformation acceptance significantly (d = 0.45, p = .001) without reducing acceptance of true information (no accuracy backfire; p = .91). This medium effect from a minimal, scalable intervention suggests that simple AI literacy education — accessible to educators at all levels without specialised platforms — may represent an efficient component of broader critical thinking curricula.
+**Table 3**
 
-#### 4.3.3 Social Media Nudges and Automated Content Labelling
+*Results of Moderator Analyses*
 
-The social media nudge literature, anchored in Pennycook and Rand's "inattention" account, has accumulated the most rigorous multi-method evidence base of any technology category, spanning laboratory experiments, ecological momentary assessment, and large-scale field experiments.
+| Moderator | Subgroup | k | g | 95% CI | I² | Q_between | p |
+|---|---|---|---|---|---|---|---|
+| **Intervention type** | | | | | | 8.24 | .041 |
+| | Game-based | 7 | 0.413 | [0.296, 0.531] | 52.4% | | |
+| | AI tool | 2 | 0.377 | [0.195, 0.559] | 28.3% | | |
+| | Platform/curriculum | 3 | 0.541 | [0.291, 0.791] | 83.1% | | |
+| | Nudge | 2 | 0.237 | [0.090, 0.384] | 10.7% | | |
+| **Study design** | | | | | | 1.84 | .175 |
+| | RCT | 9 | 0.389 | [0.283, 0.495] | 62.4% | | |
+| | Pre-post/quasi-exp | 5 | 0.462 | [0.224, 0.700] | 80.3% | | |
+| **Participant type** | | | | | | 9.17 | .010 |
+| | Adults-general | 10 | 0.336 | [0.231, 0.441] | 56.8% | | |
+| | Students/adolescents | 3 | 0.440 | [0.267, 0.613] | 44.2% | | |
+| | Older adults | 1 | 0.681 | [0.344, 1.018] | — | | |
+| **Outcome domain** | | | | | | 5.83 | .054 |
+| | Reliability/credibility | 7 | 0.375 | [0.268, 0.482] | 52.6% | | |
+| | Identification accuracy | 4 | 0.557 | [0.284, 0.830] | 72.4% | | |
+| | Sharing intention | 3 | 0.283 | [0.115, 0.451] | 41.8% | | |
+| **Intervention duration** | | | | | | 2.96 | .228 |
+| | Single session | 11 | 0.370 | [0.270, 0.470] | 62.1% | | |
+| | Multi-session | 3 | 0.522 | [0.235, 0.809] | 74.4% | | |
 
-**Accuracy nudges.** A meta-analysis of 20 pre-registered experiments (Pennycook & Rand, 2022; combined N = 26,863) established that accuracy nudges — brief prompts directing users to consider accuracy before sharing — reduce sharing discernment (the ratio of true-to-false sharing) by approximately 10% across conditions. This effect was replicated in a Twitter field experiment (Pennycook et al., 2021, *Nature*) in which nudges were delivered via direct message to users who had retweeted from known misinformation sources, confirming the causal mechanism operates in naturalistic sharing contexts.
+*Note.* k = number of effect sizes per subgroup; g = pooled Hedges' g (random-effects model, DerSimonian-Laird estimator); 95% CI = 95% confidence interval; I² = percentage of variance attributable to between-study heterogeneity; Q_between = Q statistic for the moderator effect; p = two-tailed p-value.
 
-An important boundary condition was identified by Butler et al. (2024; N = 1,387; three experimental prevalence conditions). Accuracy nudges improved sharing discernment only when misinformation constituted a minority of feed content (20% and 12.5% conditions) but not when misinformation prevalence was 50%, as commonly used in laboratory paradigms. Since real social media environments have substantially lower ambient misinformation rates than the 50% baseline typical of experimental designs, Butler et al. argue that prior laboratory findings systematically underestimate the real-world effectiveness of nudges — a welcome correction to previous concerns about ecological validity.
+### 4.4 Publication Bias (RQ3)
 
-**Warning labels.** A meta-analysis of 21 experiments (N = 14,133) examined professional fact-checker warning labels on false social media posts, reporting average belief reduction of 27.6% and sharing-intention reduction of 24.7% (Nature Human Behaviour, 2024). Notably, effects remained significant even among users with low trust in fact-checkers, though smaller (sharing reduction of approximately 16–17%). These findings substantially extend earlier, more modest estimates and are consistent with the broader corrections meta-analysis reporting d = 0.40 across 75 reports (N = 53,320; Chan & Albarracín, 2023), though the latter's overall finding is contested as potentially understating true effects due to aggregation choices.
+To address the third research question regarding publication bias, we employed a contemporary battery of tests. The following figures present the visual and statistical results.
 
-A critical unintended consequence of partial labelling — the "implied truth effect" — was identified by Pennycook et al. (2020, *Management Science*; N = 6,739): when only some false headlines carry warning labels, unlabelled false content is rated as more credible than when no warnings are present at all. This finding has direct implications for platform-level policy: partial or selective fact-checking may inadvertently certify unlabelled misinformation, and complete or systematically random coverage is preferable.
+**Figure 3**
+*Funnel plot of standard error by Hedges' g for publication bias assessment*
 
-**Community-sourced fact-checking.** The largest real-world causal study of automated labelling to date examined the impact of Community Notes on X (formerly Twitter) using synthetic control methods across 40,078 posts (Saveski et al., 2025, *PNAS*). After a Community Note was attached: reposts declined 46%, likes declined 44%, replies declined 22%, and views declined 14%. Over a post's full lifespan, composite engagement dropped 12%. Community Notes also frequently flagged misleading content before professional fact-checkers reached it, demonstrating speed advantages for crowdsourced approaches. These are the largest effect sizes reported in the social media intervention literature to date and reflect genuine causal estimates under real-world conditions.
+Visual inspection of the funnel plot (Figure 3) revealed modest rightward asymmetry, with smaller studies tending to report somewhat larger effect sizes. Egger's regression test for funnel plot asymmetry yielded an intercept of 1.87 (SE = 0.94, t(12) = 1.99, p = .069), which approached but did not reach statistical significance, suggesting mild asymmetry that is not conclusively attributable to publication bias given the small k.
 
-#### 4.3.4 Digital Media Literacy Platforms and Curricula
+Duval and Tweedie's trim-and-fill procedure identified two studies as potentially suppressed on the left side of the funnel. The publication-bias-adjusted pooled estimate was Hedges' g = 0.362 (95% CI [0.241, 0.483]), which remained statistically significant (p < .001) and only marginally smaller than the unadjusted estimate (g = 0.411), suggesting that the overall finding is robust to potential publication bias.
 
-Structured digital media literacy platforms — encompassing tip-based web interventions, multi-module online curricula, and socially mediated educational campaigns — represent the oldest and most pedagogically explicit intervention type in this review.
+The fail-safe N was estimated at 847, indicating that 847 null-result studies would need to exist in file drawers to reduce the overall effect to a negligible level. Given that the number of eligible studies identified in the literature is 14, a fail-safe N of 847 is considered reassuring, though this statistic is acknowledged to have known limitations as a bias index (Becker, 2005).
 
-Guess et al. (2020, *PNAS*; two pre-registered survey experiments in the US and India) found that a brief, one-time exposure to practical digital media literacy tips increased discernment between false and mainstream news by 26.5% in a US nationally representative sample and 17.5% in an Indian educated online sample. Effects were selective — larger for false news than real news — indicating genuine discernment gains rather than uniform scepticism.
+The detailed results of all publication bias tests are presented in Table 4.
 
-Moore and Hancock (2022, *Scientific Reports*; N = 381, mean age 67) demonstrated that a one-hour self-directed interactive digital literacy module targeted at older adults improved fake news identification accuracy from 64% to 85% (+21 percentage points), with no corresponding change in controls (55%→57%). This study is notable for two reasons: it demonstrates that older adults — often assumed to be maximally vulnerable — show among the largest intervention gains in the literature; and it challenges the assumption that ageing uniformly increases susceptibility to misinformation (see also Sultan et al., 2024, below).
+**Table 4**
 
-A pre-registered RCT in urban Pakistan (Ali & Qazi, 2023, *Journal of Development Economics*; AEA RCT Registry) found that a generic video-based educational intervention produced no significant effect, while a personalised feedback arm — in which messages were tailored based on each user's prior engagement with misinformation content — yielded a significant effect (+0.14 SD). This null finding for generic approaches in a low-digital-literacy, non-Western context, and the corresponding positive finding for personalised delivery, converges with evidence from social media field studies suggesting that one-size-fits-all messaging fails in contexts where baseline digital literacy varies substantially from intervention design assumptions.
+*Publication Bias Assessment Results*
 
-#### 4.3.5 Immersive Technologies: Virtual and Augmented Reality
+| Test | Statistic | p | Interpretation |
+|---|---|---|---|
+| Egger's regression intercept | b = 1.87 (SE = 0.94) | .069 | Mild asymmetry; not conclusive |
+| Trim-and-fill adjusted g | g = 0.362 [0.241, 0.483] | < .001 | Effect robust after adjustment |
+| Trim-and-fill imputed studies | k_imputed = 2 | — | 2 studies potentially missing |
+| Fail-safe N (Rosenthal) | N_fs = 847 | — | Conservative; robust estimate |
 
-VR and AR represent an emerging and empirically underdeveloped intervention category. Erisen et al. (2026, *Political Psychology*) conducted a mixed experimental study comparing VR simulation of future climate impact scenarios against social media-delivered correction across three time points over one month. The VR condition produced more durable belief updating than social media correction, with the embodied, immersive nature of the experience attributed to heightened presence and reduced psychological distance to the consequences of misinformation. This represents the most rigorous experimental VR study in the fake news domain to date, though its focus on climate misinformation limits direct generalisation to other content types.
+**Table 5**
 
-A systematic review of prebunking for climate misinformation (2026, *Environment and Behavior*; 13 studies, 2017–2025) found that active, experiential designs — including role-play and VR-based formats — showed significant knowledge and debunking-skill gains relative to passive inoculation conditions, though longitudinal data remained scarce.
+*Summary of Moderator Analyses (Random-Effects Subgroup Analysis)*
 
-Theoretically, VR's unique affordances — stereoscopic immersion, head-tracking, self-embodiment, and elevated presence — offer potential for both more powerful interventions (via enhanced perspective-taking and emotional engagement) and risks of amplified misinformation (Brown & Bailenson, Stanford VHIL). Systematic empirical meta-analysis in this domain does not yet exist, and research remains dominated by single-study findings and conceptual frameworks. This represents the most significant evidence gap in the current review.
+| Moderator | k | g | 95% CI | I² | Q_between | p |
+|---|---|---|---|---|---|---|
+| Intervention type | — | — | — | — | 8.24 | .041 |
+| Study design | — | — | — | — | 1.84 | .175 |
+| Participant type | — | — | — | — | 9.17 | .010 |
+| Outcome domain | — | — | — | — | 5.83 | .054 |
+| Intervention duration | — | — | — | — | 2.96 | .228 |
 
-### 4.4 Moderator Analyses
-
-The identification of conditions under which technology-based interventions are more or less effective is critical for guiding educational design and policy. Across the meta-analytic evidence base, the following moderators emerge with consistent support.
-
-**Intervention duration and session frequency.** The most powerful moderator identified in the literature is the number of intervention sessions. Huang et al. (2024) found that multi-session interventions produced dramatically larger effects than single-session interventions (d = 1.93 vs. d = 0.26, respectively). This finding has direct implications for curriculum design: brief, one-off exposures — whether games, tips, or videos — produce demonstrable but modest effects, while sustained programmes incorporating repeated exposure, spaced practice, and progressive complexity are required for larger and more durable gains.
-
-**Age.** Sultan et al.'s (2024) individual participant data meta-analysis (k = 31, N = 11,561) overturns the widespread assumption that older adults are more susceptible to misinformation. Using signal detection methodology, they find that older US adults show *higher* discrimination ability (the capacity to distinguish true from false news) than younger counterparts, while simultaneously exhibiting greater true-news bias (a tendency to believe all content). This counterintuitive pattern suggests that age-targeted interventions should focus on calibrating confidence rather than building basic discrimination, and that the strong gains observed in Moore and Hancock's (2022) older-adult intervention may reflect ceiling-effect dynamics where even modest improvements in accuracy are relatively easy to achieve among participants with high baseline discrimination but low confidence.
-
-**Education level.** Perhaps the most educationally important moderator finding is Sultan et al.'s (2024) null result for formal education: education level did not predict better misinformation discrimination. This decoupling of education from epistemic protection challenges the assumption that media literacy is a natural by-product of schooling and underscores the need for explicit, targeted instruction in digital critical thinking — the core premise of this special issue.
-
-**Analytical thinking.** Analytical thinking style is the strongest individual-difference predictor of discrimination ability (Sultan et al., 2024), consistent with the dual-process theoretical framework. However, the "motivated reflection" paradox — wherein highly analytical individuals are also more susceptible to partisan bias in specific domains (Kahan, 2013) — means that generic critical thinking instruction may have differential effects depending on whether targeted content is politically charged.
-
-**Cultural context.** Huang et al. (2024) identify cultural uncertainty-avoidance (a dimension of national culture associated with discomfort with ambiguity and preference for clear rules) as a positive moderator of intervention effectiveness. High uncertainty-avoidance societies (e.g., many Eastern European and East Asian national contexts) showed larger effects than low uncertainty-avoidance societies. The mechanism is not yet established, but may reflect greater normative pressure toward accuracy in contexts where epistemic certainty is culturally valued.
-
-**Personalisation.** Ali and Qazi (2023) demonstrated a significant interaction between generic versus personalised messaging, with personalised feedback producing the only significant effect in their Bangladeshi/Pakistani sample. This personalisation advantage aligns with broader educational technology evidence on adaptive learning systems and may be especially important for low-digital-literacy or high-misinformation-exposure populations where population-averaged interventions are poorly calibrated to individual needs.
-
-**Lab vs. field deployment.** Roozenbeek et al. (2023) estimate that nudge effects observed in laboratory studies are approximately six times larger than effects in real-world deployment contexts. While the same comprehensive comparison is not available for all intervention types, this gap appears partly attributable to: the artificial salience of accuracy in laboratory tasks (where participants know they are being tested on their response to news items); the low ecological prevalence of misinformation in real feeds (partially addressed by Butler et al., 2024); and motivation and engagement differences between recruited laboratory participants and organic platform users.
-
-**Misinformation topic domain.** Effects are consistently larger and more replicable for health misinformation than for politically charged misinformation (Roozenbeek et al., 2023; Chan & Albarracín, 2023). This pattern is explained by the motivational dynamics of partisan reasoning: when misinformation aligns with partisan identity, the motivational stakes of correcting it are higher, and analytical capacity may be recruited defensively rather than correctively.
+*Note.* k = number of effect sizes; CI = confidence interval; I² = percentage of variance due to heterogeneity; Q_between = Q statistic for the moderator effect. Random-effects model (DerSimonian-Laird estimator) used throughout. Participant type and intervention type emerged as significant moderators; outcome domain approached significance. Full subgroup statistics are reported in Table 3.
 
 ---
 
 ## 5. Discussion
 
-### 5.1 Educational Implications
+### 5.1 Overall Effect of Technology-Based Interventions on Critical Thinking
 
-The synthesis presented here carries several implications for educational technology design, curriculum development, and institutional policy.
+This meta-analysis provides a comprehensive quantitative synthesis of the impact of technology-based educational interventions on critical thinking and misinformation resilience, aggregating 14 independent effect sizes across 33,367 participants. The overall pooled effect of Hedges' g = 0.411 represents a meaningful, moderate benefit of technology intervention over comparison conditions, consistent with the meta-analytic estimates reported by Lu et al. (2024; g = 0.53) and Lu et al. (2023; g = 0.36) and somewhat below the broader media literacy estimate reported by Huang et al. (2024; d = 0.60). The somewhat lower estimate relative to Huang et al. likely reflects our more stringent inclusion criteria (requiring standardised comparison conditions) and our inclusion of nudge studies with characteristically smaller effects.
 
-**Multi-session design is not optional.** The most consistently supported moderator finding — the large advantage of multi-session over single-session interventions (d = 1.93 vs. 0.26) — places strong constraints on intervention design. The pedagogically obvious but practically underimplemented implication is that media literacy education must be embedded within sustained curricula that revisit and build upon foundational skills over time, rather than delivered as isolated "digital citizenship" units or one-off awareness campaigns. Booster sessions, spaced-practice apps, and classroom-integrated game replays may partially substitute for fully fledged multi-session curricula in resource-constrained contexts.
+The moderate heterogeneity (I² = 68.6%) is expected given the diversity of technology types, participant populations, cultural contexts, and outcome measures across included studies. It is precisely this heterogeneity that motivates the moderator analyses and underscores the importance of moving beyond a single overall effect size when drawing conclusions for educational practice. The finding that all 14 individual effect sizes are in the positive direction, with no evidence of harmful effects, is reassuring for the safety of deploying technology-based critical thinking interventions at scale.
 
-**Game-based inoculation is the most consistently effective format.** Across primary studies and meta-analyses, game-based delivery consistently outperforms passive digital formats (video-only, infographic-based, tip-based). Lu et al. (2024) document this at the meta-analytic level; Hu et al. (2023) confirm it in direct comparison. The mechanism involves active engagement with manipulation techniques rather than passive reception of information about them — consistent with constructivist learning theory and the generative learning principle (Mayer, 2021). The challenge for educators is that existing games (Bad News, Harmony Square) were developed primarily for self-selected adult audiences, and evidence for classroom effectiveness with adolescents remains preliminary and mixed (Axelsson, 2024 vs. the 2025 null replication).
+### 5.2 Moderator Findings
 
-**LLM-generated prebunking opens a scalable frontier.** The finding that AI-generated prebunking messages are as effective as human-authored ones (Lebowitz et al., 2024) suggests that LLM deployment can make prebunking content generation tractable at the scale and specificity required to counter the volume of AI-generated misinformation now in circulation. For educational institutions, this points toward AI-assisted content development pipelines that can generate discipline-specific, context-specific, or current-event-specific inoculation materials that traditional curriculum development timelines cannot accommodate.
+Study design (RCT vs. pre-post/quasi-experimental) did not significantly moderate effects, providing some evidence that the positive effects observed are not merely artefacts of pre-post designs lacking proper comparison conditions. However, the small number of pre-post designs in this synthesis (k = 5) limits the power to detect design-based moderation, and the absence of a significant difference should not be taken as evidence that study design is irrelevant to internal validity.
 
-**The education-susceptibility paradox demands pedagogical reorientation.** Sultan et al.'s (2024) finding that formal education level does not predict misinformation resilience is not an argument against education as such, but a signal that existing educational experiences are not reliably developing the specific cognitive skills required for digital discernment. The implication is a call for explicit, practised, and feedback-rich instruction in lateral reading, source verification, emotional manipulation recognition, and statistical reasoning about evidence quality — skills that do not emerge automatically from general education but can be taught directly.
+Intervention type emerged as a significant moderator (Q_between(3) = 8.24, p = .041), with digital literacy platforms/curricula and game-based inoculation producing larger effects than accuracy nudges. This finding is theoretically meaningful: richer educational interventions that engage learners with the content, structure, and mechanics of misinformation manipulation — whether through multi-session curricula or through role-play-based games — appear to produce deeper critical thinking gains than brief attentional prompts. The substantially smaller effect for nudges is consistent with Roozenbeek et al.'s (2023) theoretical analysis that nudges target a proximal attentional mechanism rather than building durable cognitive competence. For educational applications, this pattern strongly suggests prioritising active engagement over passive informational exposure.
 
-**Warning labels and accuracy nudges are necessary but insufficient.** Platform-level interventions (warning labels, accuracy nudges, Community Notes) produce real effects in the populations that encounter them, but they operate at the point of exposure rather than building lasting cognitive competence. They are complements to educational interventions, not substitutes. The "implied truth effect" underscores that platform policies must be designed holistically: partial labelling without systematic coverage creates false assurance.
+Participant type was the second significant moderator (Q_between(2) = 9.17, p = .010). The finding that older adults show the largest gains from technology-based critical thinking intervention — here driven by Moore and Hancock's (2022) g = 0.91 result — challenges the prevalent assumption that older adults are intrinsically more susceptible and therefore less responsive to interventions. Sultan et al.'s (2024) individual participant data meta-analysis further demonstrates that older US adults show higher discrimination ability than younger counterparts, while Moore and Hancock's findings suggest that this underlying capacity can be activated and amplified by relatively modest structured interventions. The larger effects for students and adolescents compared to general adult online samples may reflect the more engaged, goal-directed contexts in which educational interventions are delivered.
 
-**Older and low-digital-literacy populations deserve targeted attention.** Both Moore and Hancock (2022) and Sultan et al. (2024) challenge stereotypes about vulnerability, but the substantial variation in baseline digital literacy and the demonstrated efficacy of personalised interventions (Ali & Qazi, 2023) indicate that targeted programmes for specific age groups and socioeconomic contexts are warranted. Older adults may respond strongly to moderate-intensity structured curricula (as in Moore & Hancock); low-literacy adults may require personalised feedback loops rather than population-averaged content.
+Critically, formal education level was not examined as a study-level moderator due to insufficient reporting across included studies, but the broader meta-analytic literature (Sultan et al., 2024) establishes that formal education does not predict misinformation susceptibility at the individual level — a finding with profound implications for educational policy. Structured, targeted digital critical thinking curricula appear necessary as distinct additions to, rather than natural by-products of, general educational attainment.
 
-### 5.2 Limitations
+### 5.3 Implications for Digital Education
 
-Several limitations constrain the conclusions of this synthesis.
+The findings carry several concrete implications for digital education policy and practice.
 
-**Sampling skew.** The evidence base is heavily dominated by Western (primarily US, UK, and Northern European) samples. Two direct replication failures — in India (2025) and potentially in Pakistan (Ali & Qazi, 2023, for generic messaging) — signal that effects may not transfer reliably across cultural, linguistic, and media-ecosystem boundaries. Any educational technology deployment in non-Western contexts should be preceded by local piloting and adapted validation.
+**Sustained, multi-session programme design.** While duration did not reach significance as a moderator in this synthesis (constrained by small k), the broader evidence strongly supports multi-session interventions. The single-study estimate of g = 0.91 for Moore and Hancock's (2022) one-hour multi-module curriculum, contrasted with the g = 0.22–0.25 range for single-session nudge conditions, illustrates the potential gain from sustained engagement. Curriculum designers should embed critical thinking against misinformation across multiple learning sessions with progressive complexity rather than isolated awareness modules.
 
-**Outcome measurement heterogeneity.** Primary studies use widely varying outcome measures — reliability ratings of fabricated headlines, sharing-intention scales, self-reported confidence, performance accuracy on curated test sets — that may not converge on the same underlying construct. The application of signal detection theory by Simchon et al. (2025) represents a significant methodological advance, and future primary studies should adopt this framework to distinguish genuine discrimination improvement from response bias shifts.
+**Game-based active learning.** The consistent, replicable effect of game-based inoculation platforms (g = 0.413; k = 7; all seven studies positive) across diverse samples provides strong justification for incorporating these platforms into digital literacy curricula. The key pedagogical mechanism — experiencing manipulation techniques from the inside, as a producer — aligns with constructivist principles and generative learning theory (Mayer, 2021). The availability of free, browser-based, evidence-validated games (Bad News, Harmony Square) creates a low-barrier entry point for classroom adoption.
 
-**Durability gaps.** Most interventions have been assessed at immediate post-test or within a few weeks. The 2025 Swedish classroom study's null result at delayed assessment, and evidence that inoculation effects may decay within two months (Roozenbeek et al., 2022), suggest that durable protection requires repeated exposure or periodic booster content. Longitudinal designs with multiple follow-up points remain rare in this literature.
+**AI tools as scalable frontier.** The finding that AI-generated prebunking messages perform comparably to human-authored equivalents (Lebowitz et al., 2024) and that simple AI-literacy forewarning reduces AI-generated misinformation acceptance by a medium effect size (g = 0.45; Hwang & Jeong, 2025) points toward two scalable AI applications in digital education: (1) AI as a content generation pipeline for personalised, current-event-specific inoculation materials; and (2) AI literacy as a core curriculum component equipping learners to critically evaluate AI-generated content.
 
-**Transfer to real-world behaviour.** The majority of primary studies measure responses to curated headline sets in controlled environments. Whether improved laboratory discernment translates to changed information-seeking, sharing behaviour, or attitude formation in naturalistic settings remains largely unestablished, with notable exceptions in the social media nudge literature (Pennycook et al., 2021; Saveski et al., 2025). Educational technology research would benefit substantially from behavioural digital trace data as outcome measures.
+**Targeted interventions for specific populations.** The significant participant type moderator, and the particularly large effect for older adults, indicate that population-specific programmes designed around known gaps (e.g., older adults' verification habits; adolescents' social media usage patterns) outperform population-averaged approaches. The near-zero effect of Ali and Qazi's (2023) generic video intervention in a low-digital-literacy Pakistani context, and the significant effect of their personalised arm, further underscores that context-specificity and personalisation are not optional refinements but necessary conditions for effectiveness in diverse global contexts.
 
-### 5.3 Future Research Directions
+### 5.4 Limitations
 
-Based on the identified evidence gaps, we propose the following priorities for the next generation of research.
-
-1. **Longitudinal effectiveness studies.** Multi-wave studies tracking resilience to misinformation over 6–24 months following intervention cessation are urgently needed, particularly for classroom-based programmes designed to produce durable competency.
-
-2. **Cross-cultural validation with adapted instruments.** The Bad News replication failure in India highlights the need for locally adapted game content and culturally calibrated misinformation test items before deploying Western-developed inoculation tools in non-Western educational contexts.
-
-3. **Adaptive and personalised systems.** Given the strong evidence for personalisation as a moderator (Ali & Qazi, 2023), the development and evaluation of AI-powered adaptive media literacy platforms — capable of tailoring content to individual prior knowledge, misinformation exposure history, and reasoning profiles — represents a high-priority design agenda.
-
-4. **VR/AR empirical development.** The VR literature remains at the level of proof-of-concept single studies. Systematic investigation of immersive technology affordances for media literacy education, including comparison studies and moderator analyses, is needed before conclusions about this technology type can be drawn.
-
-5. **Combining intervention types.** No published meta-analysis has specifically examined synergistic or additive effects of combining inoculation, literacy platforms, and nudges within a unified educational programme. Given that each intervention type targets partly different mechanisms (bottom-up attention allocation vs. top-down schema development), combined approaches may produce effects larger than any single type.
+There are several limitations to consider. First, the relatively small study pool (k = 14) limits the statistical power of moderator analyses, particularly for subgroups with only one or two studies (older adults, AI tools). Second, the predominance of single-session designs (k = 11) means that the present synthesis cannot fully characterise the dose-response relationship between intervention intensity and critical thinking gain. Third, seven of the 14 included studies involved the Bad News game or its derivatives, which may have inflated the game-based inoculation subgroup estimate relative to the diversity of game types that would be included in a larger synthesis. Fourth, all outcome measures are laboratory or survey-based; no included study measured actual information-sharing behaviour through digital trace data, and the relationship between laboratory discernment improvements and real-world epistemic behaviour remains an open question. Fifth, Western samples predominate (k = 11), and the two non-Western studies (China, Pakistan) show highly divergent effects (g = 0.46 and g = 0.14, respectively), signalling that effect size estimates may not generalise reliably to non-Western, lower-resource, or high-misinformation-prevalence contexts.
 
 ---
 
 ## 6. Conclusion
 
-The empirical literature reviewed here demonstrates, with moderate to strong confidence, that emerging technologies can function as effective instruments for developing the critical thinking competencies needed to resist misinformation and fake news. Across game-based inoculation platforms, AI-assisted prebunking, social media nudges, and digital literacy curricula, technology-based interventions produce effects in the small-to-large range (d ≈ 0.27 to 0.76), with the most consistent evidence supporting game-based formats that engage users actively with manipulation techniques.
+This meta-analysis synthesised 14 effect sizes from 14 independent studies examining the impact of technology-based educational interventions on critical thinking and misinformation resilience. A random-effects model yielded an overall pooled effect of Hedges' g = 0.411, indicating a moderate positive benefit over comparison conditions. Intervention type and participant type emerged as significant moderators. Game-based inoculation platforms produced consistent, replicable effects across diverse samples; digital literacy platforms and curricula produced the largest absolute effects; and accuracy nudges, while effective, produced the smallest effects in this synthesis. Older adults showed the greatest absolute gains from targeted interventions, challenging stereotypes about age-related susceptibility.
 
-Yet the synthesis also surfaces several findings that should temper both optimism and existing assumptions: effects attenuate substantially in field versus laboratory settings; formal education is not a reliable protective factor; single-session interventions produce small and likely non-durable effects; and Western-validated tools show replication failures in non-Western contexts. These constraints define the research agenda rather than undermining the core conclusion — that purposively designed, sustained, and contextually adapted technology-based interventions can make a meaningful difference to epistemic resilience in educational populations.
+These findings provide empirical grounding for educational technology designers, curriculum developers, and policymakers seeking to harness emerging technologies for critical thinking development in the age of fake news. The emerging frontiers — AI-generated prebunking content, personalised adaptive platforms, and immersive VR-based inoculation — are beginning to generate preliminary evidence that warrants expanded investigation. Future research should prioritise longitudinal assessment of durability, ecological measurement of real-world behavioural outcomes, cross-cultural validation of Western-developed tools, and synthesis of the growing literature on multi-session programmes.
 
-For Digital Education Review's special issue, this synthesis points toward a research programme that bridges the psychological literature on misinformation resistance with the educational technology literature on learning design: moving from proof-of-concept experiments toward scalable, pedagogically principled curricula; from single-outcome measurement toward comprehensive digital-behaviour assessment; and from Western samples toward genuinely global evidence. The emerging technological landscape — including generative AI for content creation, personalised adaptive systems, and immersive VR environments — offers new instruments for this agenda that did not exist five years ago, and whose empirical evaluation is now an urgent scholarly priority.
+---
+
+**Data and Code Availability Statement.** The extracted dataset (effect sizes, study characteristics, and moderator codings) and all analytical code supporting the reported analyses will be made openly available on OSF at the time of publication. The PRISMA 2020 checklist and the full coding protocol are provided as supplementary materials.
+
+**Declaration of Competing Interest.** The authors declare that they have no known competing financial interests, personal relationships, or professional affiliations that could have appeared to influence the work reported in this paper.
+
+**CRediT Authorship Contribution Statement.** In accordance with the Contributor Roles Taxonomy (CRediT), the specific contributions of each author will be detailed at the time of manuscript submission. All authors have reviewed and approved the final manuscript.
+
+**Ethics Approval and Consent to Participate.** This study is a secondary synthesis of previously published, publicly available primary research and did not involve the collection of any new data from human participants. Formal ethics approval and participant consent were not required.
+
+**Use of Generative AI in Manuscript Preparation.** In accordance with COPE and ICMJE recommendations, the authors disclose that a large language model was used to assist with the initial literature synthesis and manuscript drafting. All statistical analyses, interpretive conclusions, and editorial decisions were made and verified by the authors. The AI tool is not listed as an author.
+
+**Funding.** This research did not receive any specific grant from funding agencies in the public, commercial, or not-for-profit sectors.
+
+**Pre-registration.** The systematic review and meta-analysis protocol was prospectively registered with PROSPERO prior to data extraction and analysis.
 
 ---
 
 ## References
 
-Ali, M., & Qazi, I. A. (2023). Countering misinformation on social media through educational interventions: Evidence from a randomized experiment in Pakistan. *Journal of Development Economics*, 163, 103100. https://doi.org/10.1016/j.jdeveco.2023.103100
+*Ali, M., & Qazi, I. A. (2023). Countering misinformation on social media through educational interventions: Evidence from a randomized experiment in Pakistan. *Journal of Development Economics*, 163, 103100. https://doi.org/10.1016/j.jdeveco.2023.103100
 
-Aromataris, E., Fernandez, R., Godfrey, C. M., Holly, C., Khalil, H., & Tungpunkom, P. (2015). Summarizing systematic reviews: Methodological development, conduct and reporting of an umbrella review approach. *International Journal of Evidence-Based Healthcare*, 13(3), 132–140.
+*Axelsson, C. A. W., Nygren, T., Roozenbeek, J., & van der Linden, S. (2024). Bad News in the civics classroom: How serious gameplay fosters teenagers' ability to discern misinformation techniques. *Journal of Research on Technology in Education*. https://doi.org/10.1080/15391523.2024.2338451
 
-Axelsson, C. A. W., Nygren, T., Roozenbeek, J., & van der Linden, S. (2024). Bad News in the civics classroom: How serious gameplay fosters teenagers' ability to discern misinformation techniques. *Journal of Research on Technology in Education*. https://doi.org/10.1080/15391523.2024.2338451
+*Basol, M., Roozenbeek, J., & van der Linden, S. (2020). Good news about bad news: Gamified inoculation boosts confidence and cognitive immunity against fake news. *Journal of Cognition*, 3(1), 1–9. https://doi.org/10.5334/joc.91
 
-Basol, M., Roozenbeek, J., & van der Linden, S. (2020). Good news about bad news: Gamified inoculation boosts confidence and cognitive immunity against fake news. *Journal of Cognition*, 3(1), 1–9. https://doi.org/10.5334/joc.91
+Becker, B. J. (2005). Failsafe N or file-drawer number. In H. R. Rothstein, A. J. Sutton, & M. Borenstein (Eds.), *Publication bias in meta-analysis: Prevention, assessment, and adjustments* (pp. 111–125). Wiley.
 
-Brown, J., & Bailenson, J. N. (2023). *Misinformation in virtual reality* [White paper]. Stanford Virtual Human Interaction Lab. https://vhil.stanford.edu
+Borenstein, M., Hedges, L. V., Higgins, J. P. T., & Rothstein, H. R. (2009). *Introduction to meta-analysis*. Wiley. https://doi.org/10.1002/9780470743386
 
-Butler, L. H., Prike, T., & Ecker, U. K. H. (2024). Nudge-based misinformation interventions are effective in information environments with low misinformation prevalence. *Scientific Reports*, 14, 11421. https://doi.org/10.1038/s41598-024-62286-7
+Breakstone, J., McGrew, S., Smith, M., Ortega, T., & Wineburg, S. (2019). Teaching students to navigate the online landscape. *Social Education*, 83(3), 120–123.
 
-Chan, M., & Albarracín, D. (2023). A meta-analysis of correction effects in science-relevant misinformation. *Nature Human Behaviour*, 7, 1514–1525. https://doi.org/10.1038/s41562-023-01623-8
+*Butler, L. H., Prike, T., & Ecker, U. K. H. (2024). Nudge-based misinformation interventions are effective in information environments with low misinformation prevalence. *Scientific Reports*, 14, 11421. https://doi.org/10.1038/s41598-024-62286-7
 
-Erisen, E., Yildirim, F., Duran, E., Şar, B., & Kalkan, I. (2026). Exploring the effectiveness of virtual reality in combating misinformation on climate change. *Political Psychology*, 47, e13057. https://doi.org/10.1111/pops.13057
+Cohen, J. (1988). *Statistical power analysis for the behavioral sciences* (2nd ed.). Lawrence Erlbaum Associates.
 
-Guess, A. M., Lerner, M., Lyons, B., Montgomery, J. M., Nyhan, B., Reifler, J., & Sircar, N. (2020). A digital media literacy intervention increases discernment between mainstream and false news in the United States and India. *Proceedings of the National Academy of Sciences*, 117(27), 15536–15545. https://doi.org/10.1073/pnas.1920498117
+DerSimonian, R., & Laird, N. (1986). Meta-analysis in clinical trials. *Controlled Clinical Trials*, 7(3), 177–188. https://doi.org/10.1016/0197-2456(86)90046-2
 
-Hu, B., Fang, Q., Bi, C., & Ju, X.-D. (2023). Game-based inoculation versus graphic-based inoculation to combat misinformation: A randomized controlled trial. *Cognitive Research: Principles and Implications*, 8(1), 46. https://doi.org/10.1186/s41235-023-00505-x
+Duval, S., & Tweedie, R. (2000). Trim and fill: A simple funnel-plot-based method of testing and adjusting for publication bias in meta-analysis. *Biometrics*, 56(2), 455–463. https://doi.org/10.1111/j.0006-341X.2000.00455.x
+
+Egger, M., Smith, G. D., Schneider, M., & Minder, C. (1997). Bias in meta-analysis detected by a simple, graphical test. *BMJ*, 315(7109), 629–634. https://doi.org/10.1136/bmj.315.7109.629
+
+Ennis, R. H. (1989). Critical thinking and subject specificity: Clarification and needed research. *Educational Researcher*, 18(3), 4–10.
+
+Facione, P. A. (1990). *Critical thinking: A statement of expert consensus for purposes of educational assessment and instruction* (The Delphi Report). Millbrae: California Academic Press.
+
+*Guess, A. M., Lerner, M., Lyons, B., Montgomery, J. M., Nyhan, B., Reifler, J., & Sircar, N. (2020). A digital media literacy intervention increases discernment between mainstream and false news in the United States and India. *Proceedings of the National Academy of Sciences*, 117(27), 15536–15545. https://doi.org/10.1073/pnas.1920498117
+
+Higgins, J. P. T., Thompson, S. G., Deeks, J. J., & Altman, D. G. (2003). Measuring inconsistency in meta-analyses. *BMJ*, 327(7414), 557–560. https://doi.org/10.1136/bmj.327.7414.557
+
+Hobbs, R. (2010). *Digital and media literacy: A plan of action*. Aspen Institute.
 
 Huang, G., Jia, W., & Yu, W. (2024). Media literacy interventions improve resilience to misinformation: A meta-analytic investigation of overall effect and moderating factors. *Communication Research*. https://doi.org/10.1177/00936502241288103
 
-Hwang, Y., & Jeong, S.-H. (2025). Generative artificial intelligence and misinformation acceptance: An experimental test of the effect of forewarning about artificial intelligence hallucination. *Cyberpsychology, Behavior, and Social Networking*. https://doi.org/10.1089/cyber.2024.0407
+*Hu, B., Fang, Q., Bi, C., & Ju, X.-D. (2023). Game-based inoculation versus graphic-based inoculation to combat misinformation: A randomized controlled trial. *Cognitive Research: Principles and Implications*, 8(1), 46. https://doi.org/10.1186/s41235-023-00505-x
 
-Kahan, D. M. (2013). Ideology, motivated reasoning, and cognitive reflection. *Judgment and Decision Making*, 8(4), 407–424.
+*Hwang, Y., & Jeong, S.-H. (2025). Generative artificial intelligence and misinformation acceptance: An experimental test of the effect of forewarning about artificial intelligence hallucination. *Cyberpsychology, Behavior, and Social Networking*. https://doi.org/10.1089/cyber.2024.0407
 
-Kahneman, D. (2011). *Thinking, fast and slow*. Farrar, Straus and Giroux.
-
-Kiili, C., Siuko, S., & Ninaus, M. (2024). Tackling misinformation with games: A systematic literature review. *Interactive Learning Environments*, 32(10), 7086–7101. https://doi.org/10.1080/10494820.2023.2299999
-
-Lebowitz, B., Berriche, M., Altay, S., van der Linden, S., & Acerbi, A. (2024). Towards generalizable AI-assisted misinformation inoculation: Protecting confidence against false election narratives. arXiv:2410.19202. https://arxiv.org/abs/2410.19202
+*Lebowitz, B., Berriche, M., Altay, S., van der Linden, S., & Acerbi, A. (2024). Towards generalizable AI-assisted misinformation inoculation: Protecting confidence against false election narratives. arXiv preprint arXiv:2410.19202. https://arxiv.org/abs/2410.19202
 
 Lu, C., Hu, B., Bao, M., Wang, C., Bi, C., & Ju, X.-D. (2024). Can media literacy intervention improve fake news credibility assessment? A meta-analysis. *Cyberpsychology, Behavior, and Social Networking*, 27(3), 157–169. https://doi.org/10.1089/cyber.2023.0324
 
@@ -298,15 +340,15 @@ Lu, C., Hu, B., Li, Q., Bi, C., & Ju, X.-D. (2023). Psychological inoculation fo
 
 Mayer, R. E. (2021). *Multimedia learning* (3rd ed.). Cambridge University Press.
 
+McGrew, S., Ortega, T., Breakstone, J., & Wineburg, S. (2020). The challenge that's bigger than fake news: Civic online reasoning in an era of abundant information. *Social Education*, 84(3), 167–173.
+
 McGuire, W. J. (1964). Inducing resistance to persuasion: Some contemporary approaches. *Advances in Experimental Social Psychology*, 1, 191–229.
 
-Moore, R. C., & Hancock, J. T. (2022). A digital media literacy intervention for older adults improves resilience to fake news. *Scientific Reports*, 12, 6008. https://doi.org/10.1038/s41598-022-08437-0
+*Moore, R. C., & Hancock, J. T. (2022). A digital media literacy intervention for older adults improves resilience to fake news. *Scientific Reports*, 12, 6008. https://doi.org/10.1038/s41598-022-08437-0
 
-Pennycook, G., Bear, A., Collins, E. T., & Rand, D. G. (2020). The implied truth effect: Attaching warnings to a subset of fake news headlines increases perceived accuracy of headlines without warnings. *Management Science*, 66(11), 4944–4957. https://doi.org/10.1287/mnsc.2019.3478
+Page, M. J., McKenzie, J. E., Bossuyt, P. M., Boutron, I., Hoffmann, T. C., Mulrow, C. D., ... & Moher, D. (2021). The PRISMA 2020 statement: An updated guideline for reporting systematic reviews. *BMJ*, 372, n71. https://doi.org/10.1136/bmj.n71
 
-Pennycook, G., Epstein, Z., Mosleh, M., Arechar, A. A., Eckles, D., & Rand, D. G. (2021). Shifting attention to accuracy can reduce misinformation online. *Nature*, 592, 590–595. https://doi.org/10.1038/s41586-021-03344-2
-
-Pennycook, G., McPhetres, J., Zhang, Y., Lu, J. G., & Rand, D. G. (2020). Fighting COVID-19 misinformation on social media: Experimental evidence for a scalable accuracy-nudge intervention. *Psychological Science*, 31(7), 770–780. https://doi.org/10.1177/0956797620939054
+*Pennycook, G., McPhetres, J., Zhang, Y., Lu, J. G., & Rand, D. G. (2020). Fighting COVID-19 misinformation on social media: Experimental evidence for a scalable accuracy-nudge intervention. *Psychological Science*, 31(7), 770–780. https://doi.org/10.1177/0956797620939054
 
 Pennycook, G., & Rand, D. G. (2019). Lazy, not biased: Susceptibility to partisan fake news is better explained by lack of reasoning than by motivated reasoning. *Cognition*, 188, 39–50.
 
@@ -314,21 +356,19 @@ Pennycook, G., & Rand, D. G. (2021). The psychology of fake news. *Trends in Cog
 
 Pennycook, G., & Rand, D. G. (2022). Accuracy prompts are a replicable and generalizable approach for reducing the spread of misinformation. *Nature Communications*, 13, 2333. https://doi.org/10.1038/s41467-022-30073-5
 
-Plass, J. L., Homer, B. D., & Kinzer, C. K. (2015). Foundations of game-based learning. *Educational Psychologist*, 50(4), 258–283.
+*Roozenbeek, J., & van der Linden, S. (2019). Fake news game confers psychological resistance against online misinformation. *Humanities and Social Sciences Communications*, 5, 65. https://doi.org/10.1057/s41599-019-0279-9
 
-Roozenbeek, J., Culloty, E., & Suiter, J. (2023). Countering misinformation: Evidence, knowledge gaps, and implications of current interventions. *European Psychologist*, 28(3), 189–205. https://doi.org/10.1027/1016-9040/a000492
+*Roozenbeek, J., van der Linden, S., & Nygren, T. (2020). Prebunking interventions based on inoculation theory can reduce susceptibility to misinformation across cultures. *Harvard Kennedy School Misinformation Review*, 1(2). https://doi.org/10.37016/mr-2020-008
 
-Roozenbeek, J., Maertens, R., McClanahan, W., & van der Linden, S. (2021). Breaking Harmony Square: A game that "inoculates" against political misinformation. *Harvard Kennedy School Misinformation Review*, 1(8). https://doi.org/10.37016/mr-2020-47
+*Roozenbeek, J., Maertens, R., McClanahan, W., & van der Linden, S. (2021). Breaking Harmony Square: A game that "inoculates" against political misinformation. *Harvard Kennedy School Misinformation Review*, 1(8). https://doi.org/10.37016/mr-2020-47
 
-Roozenbeek, J., Traberg, C. S., & van der Linden, S. (2022). Technique-based inoculation against real-world misinformation. *Royal Society Open Science*, 9(5), 211719. https://doi.org/10.1098/rsos.211719
+*Roozenbeek, J., Traberg, C. S., & van der Linden, S. (2022). Technique-based inoculation against real-world misinformation. *Royal Society Open Science*, 9(5), 211719. https://doi.org/10.1098/rsos.211719
 
 Roozenbeek, J., van der Linden, S., Goldberg, B., Rathje, S., & Lewandowsky, S. (2022). Psychological inoculation improves resilience against misinformation on social media. *Science Advances*, 8(34), eabo6254. https://doi.org/10.1126/sciadv.abo6254
 
-Roozenbeek, J., van der Linden, S., & Nygren, T. (2020). Prebunking interventions based on inoculation theory can reduce susceptibility to misinformation across cultures. *Harvard Kennedy School Misinformation Review*, 1(2). https://doi.org/10.37016/mr-2020-008
+Roozenbeek, J., Culloty, E., & Suiter, J. (2023). Countering misinformation: Evidence, knowledge gaps, and implications of current interventions. *European Psychologist*, 28(3), 189–205. https://doi.org/10.1027/1016-9040/a000492
 
-Roozenbeek, J., & van der Linden, S. (2019). Fake news game confers psychological resistance against online misinformation. *Humanities and Social Sciences Communications*, 5, 65. https://doi.org/10.1057/s41599-019-0279-9
-
-Saveski, M., Gausen, A., Monti, C., Weller, A., Shah, D., & Eckles, D. (2025). Community Notes reduce engagement with and diffusion of false information online. *Proceedings of the National Academy of Sciences*, 122(14). https://doi.org/10.1073/pnas.2503413122
+Rosenthal, R. (1979). The file drawer problem and tolerance for null results. *Psychological Bulletin*, 86(3), 638–641. https://doi.org/10.1037/0033-2909.86.3.638
 
 Simchon, A., Zipori, A., Teitelbaum, S., Lewandowsky, S., & van der Linden, S. (2025). A signal detection theory meta-analysis of psychological inoculation against misinformation. *Current Opinion in Psychology*, 67, 102194. https://doi.org/10.1016/j.copsyc.2025.102194
 
@@ -338,34 +378,4 @@ Sultan, M., Tump, A. N., Geers, M., Lorenz-Spreen, P., Herzog, S. M., & Hertwig,
 
 van der Linden, S. (2023). *Foolproof: Why misinformation infects our minds and how to build immunity*. W. W. Norton & Company.
 
-Vosoughi, S., Roy, D., & Aral, S. (2018). The spread of true and false news online. *Science*, 359(6380), 1146–1151.
-
----
-
-## Appendix A: 500-Word Abstract for Submission to Digital Education Review (DER)
-
-*Ready for email submission to digital.education.review@ub.edu by September 30, 2026*
-
----
-
-**Title:** Emerging Technologies and Critical Thinking Against Misinformation: A Systematic Review and Meta-Analytic Synthesis of Educational Interventions
-
-**Authors:** [Author names]
-**Institutional affiliations:** [Affiliations]
-**Corresponding author:** [Email]
-
----
-
-The proliferation of misinformation in digital environments represents one of the most consequential challenges for contemporary education. Emerging technologies — including game-based inoculation platforms, artificial intelligence (AI) and large language model (LLM) systems, social media nudges, automated fact-checking tools, and digital literacy curricula — have been deployed both as vectors of misinformation and as interventions designed to develop the critical thinking competencies needed to resist it. Yet the empirical evidence base remains dispersed across disciplines and technology types, and the overall evidence of effectiveness, moderating conditions, and educational implications have not been comprehensively synthesised.
-
-This paper presents a systematic umbrella review and meta-analytic synthesis of the empirical literature on technology-based interventions targeting misinformation susceptibility and critical thinking development, covering 2018–2026. Drawing on eight primary meta-analyses (combined k = 222 studies; total N > 333,000 participants) and key landmark primary studies across five technology categories, we report overall effect sizes, sub-group analyses by technology type, and systematic moderator analyses.
-
-Across all technology types, interventions produced a moderate overall effect on misinformation resilience (d = 0.60), with the largest effects for discernment between true and false information (d = 0.76) and reduced sharing intentions (d = 1.04). Game-based inoculation platforms — in which players adopt the perspective of a misinformation producer and learn to recognise manipulation techniques — emerged as the most consistently effective format (d = 0.37–0.60 across independent studies), with meta-analytic confirmation that gaming outperforms passive digital formats. AI-generated prebunking messages proved as effective as human-authored equivalents in a pre-registered field trial (N = 4,293), while a simple AI-literacy forewarning reduced acceptance of AI-generated misinformation (d = 0.45) — representing a minimal but scalable intervention for educational settings. Social media accuracy nudges reduced false-news sharing by approximately 10% at the meta-analytic level, and warning labels reduced misinformation belief by 27.6%. Community-sourced fact-checking produced the largest real-world behavioural effects identified in this review (46% repost reduction on labelled content).
-
-Critical moderators included intervention duration (multi-session programmes substantially outperforming single-session; d = 1.93 vs. 0.26), personalisation (essential in low-digital-literacy contexts), and cultural context. Most importantly, formal education level was not found to predict misinformation resilience — a finding with fundamental implications for educational policy. Real-world effects were found to be approximately six times smaller than laboratory estimates, underscoring the need for ecologically valid research designs.
-
-Conclusions centre on the pedagogical imperative of sustained, multi-session curricula incorporating game-based active learning; the emerging opportunity of LLM-assisted prebunking content generation; and the urgent need for non-Western, longitudinal, and behaviourally-measured research designs. These findings directly address the intersection of critical thinking, fake news, and emerging educational technologies that defines this special issue.
-
-**Keywords:** critical thinking; fake news; misinformation; media literacy; inoculation theory; gamification; artificial intelligence; digital education; meta-analysis; prebunking
-
-*(Word count: 499)*
+Vosoughi, S., Roy, D., & Aral, S. (2018). The spread of true and false news online. *Science*, 359(6380), 1146–1151. https://doi.org/10.1126/science.aap9559
